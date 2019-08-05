@@ -1,0 +1,75 @@
+body {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    background-image: url("img/background.png");
+    background-size:cover;
+    background-position: center center;
+    margin: 0px; 
+    height: 100vh; 
+    overflow: hidden;
+    background-color:brown;
+
+}
+
+.container-aquada{ 
+    margin-left: 78px;
+    margin-right: 70px;
+}
+
+#logosize {
+    height:100px;
+    width:100px;
+    margin-left:-40px;
+}
+
+#nav-title {
+    font-family:gaylon;
+}
+
+#overlay {
+    position: absolute;
+    top:0;
+    bottom:0;
+    height:100%;
+    width:100%;
+    z-index:-1999;
+    background-color:rgba(0,0,0,0.85);
+    opacity: 10%;
+}
+
+#titlesize{
+    width:136px;
+    height:47px;
+}
+
+
+a.nav-link {
+    color:white;
+}
+
+#signin-border{
+    border-left: 2px solid#8BCAE6;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #475269;
+    background-color:#FFFFFF;
+    border-radius: 12px;
+}
+
+
+.form-inline .form-control {
+    display: inline-block;
+    width: 100px;
+    vertical-align: middle;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 2px solid #8BCAE6;
+    border-radius: 0;
+    width:150px;
+}
