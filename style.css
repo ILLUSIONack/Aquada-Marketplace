@@ -12,6 +12,38 @@ body {
 
 }
 
+.main {
+    height: 100%;
+}
+
+.primary {
+    background-color: #f6762c;
+}
+
+.primary-text {
+    color: #f6762c;
+}
+
+.primary-gradient {
+    background: linear-gradient(#f6762c 0%, #ff7171 100%);
+}
+
+.primary-button {
+    color: white;
+    border-radius: 15px;
+    border: none;
+    width: 181px;
+    font-size: 24px;
+}
+
+.secondary {
+    background-color: #262626;
+}
+
+.secondary-text {
+    color: #262626;
+}
+
 .container-aquada{ 
     margin-left: 78px;
     margin-right: 70px;
@@ -35,14 +67,12 @@ body {
     width:100%;
     z-index:-1999;
     background-color:rgba(0,0,0,0.85);
-    opacity: 10%;
 }
 
 #titlesize{
     width:136px;
     height:47px;
 }
-
 
 a.nav-link {
     color:white;
@@ -62,7 +92,6 @@ a.nav-link {
     border-radius: 12px;
 }
 
-
 .form-inline .form-control {
     display: inline-block;
     width: 100px;
@@ -71,5 +100,128 @@ a.nav-link {
     border: none;
     border-bottom: 2px solid #8BCAE6;
     border-radius: 0;
-    width:150px;
+    width: 150px;
+}
+
+.custom-container {
+    max-width: 2400px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+}
+
+.sidebar {
+    height: 1000px;
+    color: white;
+}
+
+.sidebar-content {
+    font-size: 24px;
+}
+
+.sidebar-header h1{
+    font-size: 90px;
+    color: white;
+}
+
+.content {
+    padding-top: 120px;
+}
+
+.content-wrapper {
+    padding-top: 147px;
+}
+
+.hr-1 {
+    width: 300px;
+    height: 2px;
+    opacity: 0.3;
+    margin: 0;
+    background: white;
+}
+
+.offer-item {
+    height: 431px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.offer-item-description {
+    position: absolute;
+    height: 238px;
+    width: 100%;
+    background-color: white;
+    bottom: 0;
+    border-radius: 30px;
+    padding: 30px 33px 30px;
+}
+
+.offer-wrapper {
+    padding: 24px 14px 13px;
+    border: solid 3px white;
+    background: #151413;
+    border-radius: 30px;
+}
+
+.offer-item-title h3 {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.offer-item-title .offer-item-title-sub {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.offer-item-description-title-sub {
+    font-size: 21px;
+}
+
+.offer-item-description-title-head {
+    font-size: 51px;
+}
+
+.offer-item-attributes {
+    padding: 0px 45px 0px;
+}
+
+.offer-item-attributes li {
+    color: #7D7D7D;
+    font-size: 23px;
+}
+
+.offer-item-title {
+    padding: 10px 25px 10px;
+}
+
+.offer-item-prices span {
+    text-align: right;
+}
+
+.offer-item-current-price {
+    font-size: 49px;
+}
+
+.offer-item-previous-price.text-right {
+    font-size: 28px;
+    text-decoration: line-through;
+}
+
+.offer-item-prices {
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+.offer-item-image {
+    position: absolute;
+    top: -145px;
+    right: 255px;
+}
+
+.offer-item-image img {
+    width: 333px;
 }
