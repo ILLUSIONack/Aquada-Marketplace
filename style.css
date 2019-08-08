@@ -1,0 +1,343 @@
+body {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    background-image: url("img/background.png");
+    background-size:cover;
+    background-position: center center;
+    margin: 0px;
+    height: 100vh;
+    overflow: hidden;
+    background-color:brown;
+}
+
+.main {
+    height: 100%;
+}
+
+.primary {
+    background-color: #f6762c;
+}
+
+.primary-text {
+    color: #f6762c;
+}
+
+.primary-gradient {
+    background: linear-gradient(#f6762c 0%, #ff7171 100%);
+}
+
+.primary-button {
+    color: white;
+    border-radius: 15px;
+    border: none;
+    width: 181px;
+    font-size: 24px;
+}
+
+.secondary {
+    background-color: #262626;
+}
+
+.secondary-text {
+    color: #262626;
+}
+
+.container-aquada{ 
+    margin-left: 78px;
+    margin-right: 70px;
+}
+
+#logosize {
+    height:100px;
+    width:100px;
+    margin-left:-40px;
+}
+
+#nav-title {
+    font-family:gaylon;
+}
+
+#overlay {
+    position: absolute;
+    top:0;
+    bottom:0;
+    height:100%;
+    width:100%;
+    z-index:-1999;
+    background-color:rgba(0,0,0,0.85);
+}
+
+#titlesize{
+    width:136px;
+    height:47px;
+}
+
+a.nav-link {
+    color:white;
+}
+
+#signin-border{
+    border-left: 2px solid#8BCAE6;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #475269;
+    background-color:#FFFFFF;
+    border-radius: 12px;
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    width: 100px;
+    vertical-align: middle;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 2px solid #8BCAE6;
+    border-radius: 0;
+    width: 150px;
+}
+
+.custom-container {
+    max-width: 2400px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+}
+
+.sidebar {
+    height: 1000px;
+    color: white;
+}
+
+.sidebar-content {
+    font-size: 24px;
+}
+
+.sidebar-header h1{
+    font-size: 90px;
+    color: white;
+}
+
+.content {
+    padding-top: 120px;
+    overflow-y: scroll;
+    height: 670px;
+}
+
+.content-wrapper {
+    padding-top: 147px;
+}
+
+.hr-1 {
+    width: 300px;
+    height: 2px;
+    opacity: 0.3;
+    margin: 0;
+    background: white;
+}
+
+.offer-item {
+    height: 431px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.offer-item-description {
+    position: absolute;
+    height: 238px;
+    width: 100%;
+    background-color: white;
+    bottom: 0;
+    border-radius: 30px;
+    padding: 30px 33px 30px;
+}
+
+.offer-wrapper {
+    padding: 24px 14px 13px;
+    border: solid 3px white;
+    background: #151413;
+    border-radius: 30px;
+}
+
+.offer-item-title h3 {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.offer-item-title .offer-item-title-sub {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.offer-item-description-title-sub {
+    font-size: 21px;
+}
+
+.offer-item-description-title-head {
+    font-size: 51px;
+}
+
+.offer-item-attributes {
+    padding: 0px 45px 0px;
+}
+
+.offer-item-attributes li {
+    color: #7D7D7D;
+    font-size: 23px;
+}
+
+.offer-item-title {
+    padding: 10px 25px 10px;
+}
+
+.offer-item-prices span {
+    text-align: right;
+}
+
+.offer-item-current-price {
+    font-size: 49px;
+}
+
+.offer-item-previous-price.text-right {
+    font-size: 28px;
+    text-decoration: line-through;
+}
+
+.offer-item-prices {
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+.offer-item-image {
+    position: absolute;
+    top: -145px;
+    right: 255px;
+}
+
+.offer-item-image img {
+    width: 333px;
+}
+
+.product {
+    width: 100%;
+    height: 300px;
+    padding: 0px 23px 0px;
+}
+
+.product-content {
+    background: #151413;
+    height: 431px;
+    border-radius: 30px;
+    border: solid 3px white;
+    padding: 0px 25px 10px;
+}
+
+.product-area {
+    margin-top: 57px;
+}
+
+.product-info {
+    height: 30%;
+    background: white;
+    border-radius: 30px;
+    padding: 19px 0px 0px;
+}
+
+.product-item {
+    height: 70%;
+}
+
+.product-image-wrapper img {
+    width: 151px;
+    margin: 0 auto;
+}
+
+.product-image-wrapper {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.rating {
+    margin: auto;
+}
+
+.star {
+    height: 17px;
+}
+
+.full-star {
+    background-image: url("file:///C:/Users/Selim%20Aydi/Desktop/aqua/Aquada-Marketplace/img/star.png");
+    width: 16px;
+    margin-right: 3px;
+}
+
+.half-star {
+    width: 8px;
+    background-image: url("file:///C:/Users/Selim%20Aydi/Desktop/aqua/Aquada-Marketplace/img/halfstar.png");
+}
+
+.stars {
+    padding: 0px 18px 0px;
+}
+
+.product-info h3 {}
+
+.product-title {
+    font-size: 22px;
+    width: 100%;
+}
+
+.product-price {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.hr-2 {
+    width: 300px;
+    height: 3px;
+    /* opacity: 0.3; */
+    margin: 0;
+    background: #ebebeb;
+    border: none;
+}
+
+/* Registration page */
+.input {
+    display: inline-block;
+    width: 100px;
+    vertical-align: middle;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 2px solid #8BCAE6;
+    border-radius: 0;
+    width: 150px;
+}
+
+.bordersize-name-input{
+    width:200px;
+}
+
+.bordersize-rest-fields{
+    width:506px;
+}
+
+.input-text{
+    color:#FFFFFF;
+}
+
+.register-button{
+    width: 135px;
+    height: 41px;
+    border-radius: 20.5px;
+    background: linear-gradient(#f6762c 0%, #ff7171 100%);
+    color:#FFFFFF;
+}
