@@ -10,13 +10,6 @@ body {
     overflow: hidden;
 }
 
-.container-aquada{ 
-    margin-left: 70px;
-    margin-right: 70px;
-    max-width:1920px;
-    margin:0 auto;
-}
-
 #logosize {
     height:100px;
     width:100px;
@@ -25,6 +18,23 @@ body {
 
 #nav-title {
     font-family:gaylon;
+}
+
+#titlesize{
+    width:136px;
+    height:47px;
+}
+
+#signin-border{
+    border-left: 3px solid#8BCAE6;
+    padding-left:20px;
+}
+
+.container-aquada{ 
+    margin-left: 70px;
+    margin-right: 70px;
+    max-width:1920px;
+    margin:0 auto;
 }
 
 .overlay-page {
@@ -48,33 +58,23 @@ body {
     background-image: url("img/bottomoverlay.png")
 }
 
-#titlesize{
-    width:136px;
-    height:47px;
-}
-
-a.nav-link {
-    color:white;
-}
-
-#signin-border{
-    border-left: 3px solid#8BCAE6;
-}
-
 .navbar-light .navbar-nav .nav-link {
     color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #475269;
     background-color:#FFFFFF;
     border-radius: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 
 .form-inline .form-control {
     display: inline-block;
-    width: 100px;
     vertical-align: middle;
     background-color: transparent !important;
     border: none;
@@ -100,3 +100,64 @@ button, input, optgroup, select, textarea {
     font-size: inherit;
     line-height:normal;
 }
+
+
+@media (max-width: 576px) { 
+
+    #titlesize{
+        width:100px;
+        height:37px;
+    }
+
+    .form-inline .form-control {
+        display: inline-block;
+        vertical-align: middle;
+        background-color: transparent !important;
+        border: none;
+        border-bottom:none;
+        border-radius: 0;
+        width: 10px;
+        box-shadow: none;
+    }
+    
+    .search-button {
+        cursor: pointer;
+        height: 38px;
+        width: 30px;
+        border: none;
+        margin-right: -10px;
+        background: transparent;
+        border-bottom: none;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #FFFFFF;
+        padding-left:  0px;
+        padding-right: 0px;
+    }
+
+    #signin-border{
+        border-left: 3px solid#8BCAE6;
+        padding-left:10px;
+    }
+
+    .small-screen-images {
+        height:20px !important;
+        width:20px !important;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+ }
+
+
+@media (min-width: 992px) { 
+
+ }
+
+
+@media (min-width: 1200px) { 
+
+ }
