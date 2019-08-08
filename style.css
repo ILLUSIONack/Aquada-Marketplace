@@ -5,11 +5,10 @@ body {
     background-image: url("img/background.png");
     background-size:cover;
     background-position: center center;
-    margin: 0px; 
-    height: 100vh; 
+    margin: 0px;
+    height: 100vh;
     overflow: hidden;
     background-color:brown;
-
 }
 
 .main {
@@ -129,6 +128,8 @@ a.nav-link {
 
 .content {
     padding-top: 120px;
+    overflow-y: scroll;
+    height: 670px;
 }
 
 .content-wrapper {
@@ -224,4 +225,87 @@ a.nav-link {
 
 .offer-item-image img {
     width: 333px;
+}
+
+.product {
+    width: 100%;
+    height: 300px;
+    padding: 0px 23px 0px;
+}
+
+.product-content {
+    background: #151413;
+    height: 431px;
+    border-radius: 30px;
+    border: solid 3px white;
+    padding: 0px 25px 10px;
+}
+
+.product-area {
+    margin-top: 57px;
+}
+
+.product-info {
+    height: 30%;
+    background: white;
+    border-radius: 30px;
+    padding: 19px 0px 0px;
+}
+
+.product-item {
+    height: 70%;
+}
+
+.product-image-wrapper img {
+    width: 151px;
+    margin: 0 auto;
+}
+
+.product-image-wrapper {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.rating {
+    margin: auto;
+}
+
+.star {
+    height: 17px;
+}
+
+.full-star {
+    background-image: url("file:///C:/Users/Selim%20Aydi/Desktop/aqua/Aquada-Marketplace/img/star.png");
+    width: 16px;
+    margin-right: 3px;
+}
+
+.half-star {
+    width: 8px;
+    background-image: url("file:///C:/Users/Selim%20Aydi/Desktop/aqua/Aquada-Marketplace/img/halfstar.png");
+}
+
+.stars {
+    padding: 0px 18px 0px;
+}
+
+.product-info h3 {}
+
+.product-title {
+    font-size: 22px;
+    width: 100%;
+}
+
+.product-price {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.hr-2 {
+    width: 300px;
+    height: 3px;
+    /* opacity: 0.3; */
+    margin: 0;
+    background: #ebebeb;
+    border: none;
 }

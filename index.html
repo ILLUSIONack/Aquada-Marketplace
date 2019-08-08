@@ -1,125 +1,189 @@
 <!doctype html>
 <html lang="en">
-   <head>
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" href="style.css">
-      <title>Aquada</title>
-   </head>
-   <body>
-      <div id="overlay"></div>
-      <div class="container-aquada">
-         <nav class="navbar navbar-expand-lg navbar-light">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Aquada</title>
+</head>
+
+<body>
+    <div id="overlay"></div>
+    <div class="container-aquada">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="d-flex mt-3">
-               <!-- <a class="navbar-brand m-4" id="nav-title" href="#">AQUADA</a>-->
-               <img class="m-4" src="img/title.png" id="titlesize">
-               <img src="img/shrimplogo.png" id="logosize" alt="Kiwi standing on oval">
-               <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-               </form>
+                <!-- <a class="navbar-brand m-4" id="nav-title" href="#">AQUADA</a>-->
+                <img class="m-4" src="img/title.png" id="titlesize">
+                <img src="img/shrimplogo.png" id="logosize" alt="Kiwi standing on oval">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
             </div>
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-               <ul class="navbar-nav mr-center">
-                  <li class="nav-item mt-3 ml-4 active">
-                     <a class="nav-link pl-4 pr-4" href="#">Offers <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item mt-3 ml-4">
-                     <a class="nav-link pl-4 pr-4" href="#">Products</a>
-                  </li>
-                  <li class="nav-item mt-3 ml-4">
-                     <a class="nav-link pl-4 pr-4" href="#">Services</a>
-                  </li>
-                  <li class="nav-item mt-3 ml-4">
-                     <a class="nav-link pl-4 pr-4" href="#">Shrimps</a>
-                  </li>
-               </ul>
+                <ul class="navbar-nav mr-center">
+                    <li class="nav-item mt-3 ml-4 active">
+                        <a class="nav-link pl-4 pr-4" href="#">Offers <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mt-3 ml-4">
+                        <a class="nav-link pl-4 pr-4" href="#">Products</a>
+                    </li>
+                    <li class="nav-item mt-3 ml-4">
+                        <a class="nav-link pl-4 pr-4" href="#">Services</a>
+                    </li>
+                    <li class="nav-item mt-3 ml-4">
+                        <a class="nav-link pl-4 pr-4" href="#">Shrimps</a>
+                    </li>
+                </ul>
             </div>
             <div>
-               <ul class="navbar-nav">
-                  <li class="nav-item mt-3">
-                     <a class="nav-link pl-5 pr-4" id="signin-border" href="#">Sign in</a>
-                  </li>
-                  <li class="nav-item mt-3">
-                     <a class="nav-link pl-4 pr-4" href="#">Cart</a>
-                  </li>
-               </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item mt-3">
+                        <a class="nav-link pl-5 pr-4" id="signin-border" href="#">Sign in</a>
+                    </li>
+                    <li class="nav-item mt-3">
+                        <a class="nav-link pl-4 pr-4" href="#">Cart</a>
+                    </li>
+                </ul>
             </div>
-         </nav>
-         <!-- Main -->
-         <div class="main">
+        </nav>
+        <!-- Main -->
+        <div class="main">
             <div class="row content-wrapper">
-               <div class="sidebar col-md-5">
-                  <div class="sidebar-header">
-                     <h1>Welcome</h1>
-                  </div>
-                  <div class="sidebar-content">
-                     <p>AQUADA Marketplace is your one-stop solution all around the shrimp farming ecosystem.</p>
-                     <hr class="hr-1">
-                     <p class="pt-4">If you are an Aquada Shrimp Farmer, you can log in with your existing AQUADA app account to see track your shrimp sales.</p>
-                     <p>Are you a retailer looking to buy shrimp?</p>
-                     <button class="primary-gradient primary-button">Register here</button>
-                  </div>
-               </div>
-               <div class="content col-md-7">
-                  <div class="offer-wrapper">
-                     <div class="offer-item">
-                        <div class="offer-item-title">
-                           <h3 class="offer-item-title-head">FEATURED LIMITED TIME DEAL</h3>
-                           <h3 class="offer-item-title-sub">
-                              OFFER EXPIRES IN 7D 15H
-                           </h3>
-                        </div>
-                        <div class="offer-item-description">
-                           <div class="offer-item-image">
-                              <img src="file:///C:/Users/Selim%20Aydi/Desktop/aqua/Aquada-Marketplace/img/Group%2026@2x.png">
-                           </div>
-                           <div class="offer-item-description-title">
-                              <h3 class="offer-item-description-title-sub secondary-text">
-                                 Matrix PG 2200-3
-                              </h3>
-                              <h3 class="offer-item-description-title-head secondary-text">
-                                Standby Generator
-                              </h3>
-                           </div>
-                           <div class="offer-item-content row">
-                              <div class="offer-item-attributes no-gutters col-md-6">
-                                 <div class="row">
-                                    <ul class="col">
-                                       <li>2200 watts</li>
-                                       <li>46kg</li>
-                                    </ul>
-                                    <ul class="col">
-                                       <li>2 Sockets</li>
-                                       <li>230V</li>
-                                    </ul>
-                                 </div>
-                              </div>
-                              <div class="offer-item-price-area col">
-                                 <div class="offer-item-prices">
-                                    <div class="d-flex flex-row-reverse">
-                                       <span class="offer-item-previous-price text-right">
+                <div class="sidebar col-md-5">
+                    <div class="sidebar-header">
+                        <h1>Welcome</h1>
+                    </div>
+                    <div class="sidebar-content">
+                        <p>AQUADA Marketplace is your one-stop solution all around the shrimp farming ecosystem.</p>
+                        <hr class="hr-1">
+                        <p class="pt-4">If you are an Aquada Shrimp Farmer, you can log in with your existing AQUADA app account to see track your shrimp sales.</p>
+                        <p>Are you a retailer looking to buy shrimp?</p>
+                        <button class="primary-gradient primary-button">Register here</button>
+                    </div>
+                </div>
+                <div class="content col-md-7">
+                    <div class="offer-wrapper">
+                        <div class="offer-item">
+                            <div class="offer-item-title">
+                                <h3 class="offer-item-title-head">FEATURED LIMITED TIME DEAL</h3>
+                                <h3 class="offer-item-title-sub">
+                                    OFFER EXPIRES IN 7D 15H
+                                </h3>
+                            </div>
+                            <div class="offer-item-description">
+                                <div class="offer-item-image">
+                                    <img src="file:///C:/Users/Selim%20Aydi/Desktop/aqua/Aquada-Marketplace/img/Group%2026@2x.png">
+                                </div>
+                                <div class="offer-item-description-title">
+                                    <h3 class="offer-item-description-title-sub secondary-text">
+                                        Matrix PG 2200-3
+                                    </h3>
+                                    <h3 class="offer-item-description-title-head secondary-text">
+                                        Standby Generator
+                                    </h3>
+                                </div>
+                                <div class="offer-item-content row">
+                                    <div class="offer-item-attributes no-gutters col-md-6">
+                                        <div class="row">
+                                            <ul class="col">
+                                                <li>2200 watts</li>
+                                                <li>46kg</li>
+                                            </ul>
+                                            <ul class="col">
+                                                <li>2 Sockets</li>
+                                                <li>230V</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="offer-item-price-area col">
+                                        <div class="offer-item-prices">
+                                            <div class="d-flex flex-row-reverse">
+                                                <span class="offer-item-previous-price text-right">
                                        $ 235.00</span>
+                                            </div>
+                                            <div class="d-flex flex-row-reverse">
+                                                <span class="offer-item-current-price primary-text">$ 217.00</span>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="d-flex flex-row-reverse">
-                                       <span class="offer-item-current-price primary-text">$ 217.00</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+
+                    <div class="row product-area">
+                        <div class="product col">
+                            <div class="product-content">
+                                <div class="row product-item">
+                                    <div class="product-image-wrapper">
+                                        <div class="row no-gutters"><img src="file:///C:/Users/Selim%20Aydi/Desktop/aqua/Aquada-Marketplace/img/Group 2@2x.png"></div>
+                                        <div class="row no-gutters pt-4 d-flex justify-content-center">
+                                            <div class="row d-flex justify-content-center no-gutters rating-area">
+                                                <div class="col-md-9 d-flex justify-content-center star-area">
+                                                    <div class="stars d-flex justify-content-center align-self-center">
+                                                        <div class="star full-star">
+                                                        </div>
+                                                        <div class="star full-star">
+                                                        </div>
+                                                        <div class="star full-star">
+                                                        </div>
+                                                        <div class="star full-star">
+                                                        </div>
+                                                        <div class="star half-star">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="rating"><span class="primary-text">4.9</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row product-info d-flex justify-content-center">
+                                    <div class="row no-gutters">
+                                        <h3 class="product-title">Sun Grow Shirakura</h3>
+                                    </div>
+                                    <div class="" style="
+">
+                                        <hr class="hr-2">
+                                    </div>
+                                    <div class="row no-gutters">
+                                        <h3 class="product-price primary-text">$ 16.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product col">
+                            <div class="product-content">
+                                <div class="row"></div>
+                                <div class="row"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="product col">
+                            <div class="product-content">
+                                <div class="row"></div>
+                                <div class="row"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-   </body>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
 </html>
