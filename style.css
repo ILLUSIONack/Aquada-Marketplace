@@ -321,21 +321,22 @@ a.nav-link {
     border-radius: 0;
     width: 150px;
     color:#FFFFFF;
+    outline: none !important;
 }
 
-.bordersize-name-input{
+.bordersize-name-input {
     width:200px;
 }
 
-.bordersize-rest-fields{
+.bordersize-rest-fields {
     width:506px;
 }
 
-.input-text{
+.input-text {
     color:#FFFFFF;
 }
 
-.register-button{
+.register-button {
     width: 135px;
     height: 41px;
     border-radius: 20.5px;
