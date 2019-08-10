@@ -161,3 +161,20 @@ button, input, optgroup, select, textarea {
 @media (min-width: 1200px) { 
 
  }
+
+.display-4 {
+    color:#FFFFFF;
+
+}
+.blockquote{
+    color:#FFFFFF;
+    font-size: small;
+}
+ 
+ .pijltje{
+    display: inline-block;
+    vertical-align: top;
+    width: 10px;
+    height: 13px; 
+    margin-right: 2%;
+}
