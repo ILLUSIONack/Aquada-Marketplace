@@ -161,3 +161,44 @@ button, input, optgroup, select, textarea {
 @media (min-width: 1200px) { 
 
  }
+
+ /* login form */
+
+ .dropdown-menu.show {
+    width: 350px;
+}
+
+button.btn.btn-primary {
+    width: 99px;
+    height: 33px;
+    border-radius: 15px;
+    background: #8bcae6;
+    border:none;
+}
+
+input#exampleDropdownFormEmail1 {
+    height: 42px;
+    border-radius: 15px;
+    background: #acacac;
+    opacity: 0.24;
+}
+
+input#exampleDropdownFormPassword1 {
+    height: 42px;
+    border-radius: 15px;
+    background: #acacac;
+    opacity: 0.24;
+}
+
+.dropdown-menu.show {
+    border-radius: 15px;
+}
+
+label.form-check-label {
+    font-size: 14px;
+    color: #AFAFAF;
+}
+
+.dropdown-divider {
+    border: 1.5px solid #8bcae6;
+}
