@@ -229,7 +229,6 @@ a.nav-link {
 .product {
     width: 100%;
     padding: 0px 23px 30px;
-    /* max-width: 400px; */
     margin: 0 auto;
 }
 
@@ -245,13 +244,8 @@ a.nav-link {
     margin: 0 auto;
 }
 
-.product-area {
-    /* margin-top: 57px; */
-    /* max-width: 400px; */
-}
 
 .product-info {
-    /* height: 133px; */
     background: white;
     border-radius: 30px;
     padding: 19px 0px 0px;
@@ -353,7 +347,6 @@ a.nav-link {
 }
 
 .img-s2 {
-    /* height: 167px; */
     width: 100%;
 }
 
