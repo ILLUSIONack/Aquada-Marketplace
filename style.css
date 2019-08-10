@@ -169,12 +169,19 @@ button, input, optgroup, select, textarea {
 .blockquote{
     color:#FFFFFF;
     font-size: small;
+    bottom:5%;
+    
 }
  
  .pijltje{
     display: inline-block;
     vertical-align: top;
-    width: 10px;
-    height: 13px; 
+    width: 12px;
+    height: 19px; 
     margin-right: 2%;
+}
+.pijl{
+    position: absolute;
+    display:inline-block;
+    
 }
