@@ -1,0 +1,26 @@
+{% extends "extendables/bases/double_base.html" %}
+{% import "extendables/items/offer.html" as offer %}
+{% import "extendables/items/product.html" as product %}
+
+{% block sidebar_header %}
+    <h1>Welcome</h1>
+{% endblock %}
+
+{% block sidebar_content %}
+    <p>AQUADA Marketplace is your one-stop solution all around the shrimp farming ecosystem.</p>
+    <hr class="hr-1">
+    <p class="pt-4">If you are an Aquada Shrimp Farmer, you can log in with your existing AQUADA app
+        account to see track your shrimp sales.</p>
+    <p>Are you a retailer looking to buy shrimp?</p>
+    <button class="primary-gradient primary-button">Register here</button>
+{% endblock %}
+
+{% block content %}
+    {{ offer.getOffer('Standby Generator', 'Matrix PG 2200-3', '235.00', '217.00', '7D 15H') }}
+
+    <div class="row product-area">
+        {{ product.getProduct('Sun Grow Shirakura', '4.9', '13.00', 'img/Group 2@2x.png') }}
+        {{ product.getProduct('Test product', '4.9', '26.00', 'img/Group 2@2x.png') }}
+        {{ product.getProduct('Another product', '4.9', '13.00', 'img/Group 2@2x.png') }}
+    </div>
+{% endblock %}

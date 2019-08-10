@@ -2,12 +2,13 @@ body {
     font-family: futura-pt, sans-serif;
     font-style: normal;
     font-weight: 400;
-    background-image: url("img/background.png");
+    background-image: url("../img/background.png");
     background-size: cover;
     background-position: center center;
     margin: 0px;
     height: 100vh;
     overflow: hidden;
+    color: white;
     background-color: white;
 }
 
@@ -32,7 +33,8 @@ body {
     border-radius: 15px;
     border: none;
     width: 181px;
-    font-size: 24px;
+    font-size: 19px;
+    padding: 6px 0px 6px;
 }
 
 .secondary {
@@ -46,6 +48,28 @@ body {
 .container-aquada {
     margin-left: 78px;
     margin-right: 70px;
+}
+
+.cont-sidebar .product {
+    padding: 0px;
+}
+
+.filter {
+    background-color: rgba(0, 0, 0, 0.54);
+    padding: 3px 16px 0px;
+    border-radius: 11px;
+    border: solid 1px #ffffff73;
+}
+
+.filter-wrapper {
+    background: #fffffff5;
+    border-radius: 11px;
+}
+
+.action-area .primary-button {
+    width: 244px;
+    font-size: 20px;
+    padding: 6px;
 }
 
 #logosize {
@@ -83,7 +107,7 @@ body {
     height: 100%;
     width: 100%;
     z-index: -999;
-    background-image: url("img/overlay.png")
+    background-image: url("../img/overlay.png")
 }
 
 .bottom-overlay {
@@ -93,7 +117,7 @@ body {
     width: 100%;
     z-index: -9;
     /* background-color:rgba(0,0,0,0.83); */
-    background-image: url("img/bottomoverlay.png")
+    background-image: url("../img/bottomoverlay.png")
 }
 
 nav {
@@ -154,7 +178,7 @@ nav {
 .content {
     overflow-y: auto;
     margin-top: 50px;
-    height: 602px;
+    height: 635px;
     padding-right: 50px;
     padding-left: 0;
 }
@@ -259,6 +283,10 @@ nav {
     margin: 0 auto;
 }
 
+.product-title, .product-weight{
+    color: #262626;
+}
+
 .product-content {
     background: #151413;
     border-radius: 30px;
@@ -271,11 +299,23 @@ nav {
     margin: 0 auto;
 }
 
+.back-button {
+    background: url('../img/chevron_left.png');
+    height: 32px;
+    width: 19px;
+    background-size: contain;
+    border: none;
+    background-repeat: no-repeat;
+}
 
 .product-info {
     background: white;
     border-radius: 30px;
     padding: 19px 0px 0px;
+}
+
+.product-info-block {
+    width: 90%;
 }
 
 .product-item {
@@ -302,14 +342,14 @@ nav {
 }
 
 .full-star {
-    background-image: url("img/star.png");
+    background-image: url("../img/star.png");
     width: 16px;
     margin-right: 4px;
 }
 
 .half-star {
     width: 8px;
-    background-image: url("img/halfstar.png");
+    background-image: url("../img/halfstar.png");
 }
 
 .stars {
@@ -335,6 +375,22 @@ nav {
     background: #ebebeb;
     border: none;
     margin: 10px 0px 15px;
+}
+
+.cont-header h3 {
+    font-size: 29px;
+}
+
+.content-header h1 {
+    font-size: 80px;
+}
+
+.sub-text {
+    font-size: 13px;
+}
+
+.main-text {
+    font-size: 25px;
 }
 
 /*
@@ -392,6 +448,18 @@ nav {
 
 .product-info-container {
     width: 90%;
+}
+
+.cont-description p {
+    font-size: 17px;
+}
+
+img.check {
+    width: 24px;
+}
+
+.return {
+    padding-top: 150px;
 }
 
 @media (max-width:1199px) {
