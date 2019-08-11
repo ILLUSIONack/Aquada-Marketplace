@@ -484,7 +484,7 @@ input#dropdownCheck {
     width: 0;
   }
   
-  .checkmark {
+  .checkbox-container .checkmark {
     height: 25px;
     width: 25px;
     background-color: #eee;
@@ -767,19 +767,6 @@ textarea {
     border:none;
 }
 
-.shrimp-button{
-    height: 47.24px;
-    border-radius: 15px;
-    background: rgba(0, 0, 0, 0.62);
-    border: 1px solid #fff;
-    opacity: 0.6;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
-    color:#fff;
-    padding-left:20px;
-    padding-right:20px;
-
-}
-
 .dropdown-border label {
     color: #fff;
 }
@@ -792,12 +779,64 @@ button.products-dropdown {
 }
 
 button:focus {
-    height: 52px;
+    outline: 0;
+}
+
+.radiocontainer {
+    display: block;
+    position: relative;
+    /* padding-left: 35px; */
+    /* margin-bottom: 12px; */
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .radiocontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .radiocontainer .checkmark {
     border-radius: 15px;
-    background: #fff;
-    border: 3px solid #fff;
-    color:black;
+    background: rgba(0, 0, 0, 0.61);
+    border: 1px solid #fff;
+    opacity: 0.6;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    padding: 13px 19px 13px;
+  }
+  
+  .radiocontainer:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .radiocontainer input:checked ~ .checkmark {
+    background-color: #ffffff;
     opacity: 1;
+    color: black;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+ 
+  label.radiocontainer {
+    display: inline;
+}
+
+label.filter-header {
+    padding: 22px 0px 8px;
+}
+
+label.filter-header-first {
+    padding: 0px 0px 12px;
 }
 
 /* Products dropdown menu */

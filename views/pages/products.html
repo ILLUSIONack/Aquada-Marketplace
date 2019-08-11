@@ -23,50 +23,81 @@
             Nutrition
           </button>
         </div>
-        <div id="collapseOne" class="mt-3 collapse" aria-labelledby="headingOne" data-parent="#accordion" style="">
+        <div id="collapseOne" class="mt-3 collapse show" aria-labelledby="headingOne" data-parent="#accordion" >
           <div class="border-firstmenu">
-            <div class="dropdown-border ml-3">
-              <div class="row">
-                <div class="col-lg-6">
-                  <label for="type">Shrimp type</label>
+            <div class="dropdown-border ml-3 filter-container">
+
+              <div class="filter-box">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <label for="type" class="filter-header-first">Shrimp Type</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+
+                    <label class="radiocontainer"><input type="radio" name="radio" checked="">
+                      <span class="checkmark">White leg shrimp</span>
+                    </label><label class="radiocontainer"><input type="radio" name="radio">
+                      <span class="checkmark">Tiger leg shrimp</span>
+                    </label>
+
+                  </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-lg-12">
-                  <button class="shrimp-button">White leg shrimp</button>
-                  <button class="shrimp-button">Tiger leg shrimp</button>
+
+              <div class="filter-box">
+                <div class="row py-2">
+                  <div class="col-lg-6">
+                    <label for="type" class="filter-header">Grownth Stage</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <label class="radiocontainer"><input type="radio" name="radio" checked="">
+                      <span class="checkmark">1st Month</span>
+                    </label>
+                    <label class="radiocontainer"><input type="radio" name="radio" checked="">
+                      <span class="checkmark">2nd Month</span>
+                    </label>
+                    <label class="radiocontainer"><input type="radio" name="radio" checked="">
+                      <span class="checkmark">3rd Month</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="row mt-1">
+                  <div class="mt-4 col-lg-12">
+                    <label class="radiocontainer"><input type="radio" name="radio" checked="">
+                      <span class="checkmark">3rd Month</span>
+                    </label>
+                    <label class="radiocontainer"><input type="radio" name="radio" checked="">
+                      <span class="checkmark">4th Month</span>
+                    </label>
+                    <label class="radiocontainer"><input type="radio" name="radio" checked="">
+                      <span class="checkmark">5th Month</span>
+                    </label>
+                  </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="mt-3 col-lg-6">
-                  <label for="type">Grownth stage</label>
+              <div class="filter-box">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <label for="type" class="filter-header">Sort by</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+
+                    <label class="radiocontainer"><input type="radio" name="radio" checked="">
+                      <span class="checkmark">Price</span>
+                    </label><label class="radiocontainer"><input type="radio" name="radio">
+                      <span class="checkmark">Ratings</span>
+                    </label>
+
+                  </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-lg-12">
-                  <button class="shrimp-button">1st Month</button>
-                  <button class="shrimp-button">2nd Month</button>
-                  <button class="shrimp-button">3rd Month</button>
-                </div>
-              </div>
-              <div class="row">
-                <div class="mt-2 col-lg-12">
-                  <button class="shrimp-button">4th Month</button>
-                  <button class="shrimp-button">5th Month</button>
-                  <button class="shrimp-button">6th Month</button>
-                </div>
-              </div>
-              <div class="row">
-                <div class="mt-3 col-lg-6">
-                  <label for="type">Sort by</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12">
-                  <button class="shrimp-button">Price</button>
-                  <button class="shrimp-button">Ratings</button>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
@@ -78,36 +109,48 @@
           <button class="products-dropdown collapsed" data-toggle="collapse" data-target="#collapseTwo"
             aria-expanded="false" aria-controls="collapseTwo">Salt</button>
         </div>
-        <div style="" data-parent="#accordion2" aria-labelledby="headingTwo" class="mt-3 collapse" id="collapseTwo">
+<div id="collapseTwo" class="mt-3 collapse show" aria-labelledby="headingOne" data-parent="#accordion" style="">
           <div class="border-firstmenu">
-            <div class="dropdown-border ml-3">
-              <div class="row">
-                <div class="col-lg-6">
-                  <label for="type">Shrimp type</label>
+            <div class="dropdown-border ml-3 filter-container">
+
+              <div class="filter-box">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <label for="type" class="filter-header-first">Shrimp Type</label>
+                  </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12">
-                  <button class="shrimp-button">White leg shrimp</button>
-                  <button class="shrimp-button">Tiger leg shrimp</button>
+                <div class="row">
+                  <div class="col-lg-12">
+
+                    <label class="radiocontainer"><input type="radio" name="radio" checked="">
+                      <span class="checkmark">White Leg Shrimp</span>
+                    </label><label class="radiocontainer"><input type="radio" name="radio">
+                      <span class="checkmark">Black Tiger Shrimp</span>
+                    </label>
+
+                  </div>
                 </div>
               </div>
 
-              <div class="row">
+              <div class="filter-box">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <label for="type" class="filter-header">Sort by</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
 
-              </div>
+                    <label class="radiocontainer"><input type="radio" name="radio" checked="">
+                      <span class="checkmark">Price</span>
+                    </label><label class="radiocontainer"><input type="radio" name="radio">
+                      <span class="checkmark">Ratings</span>
+                    </label>
 
-              <div class="row">
-                <div class="mt-3 col-lg-6">
-                  <label for="type">Sort by</label>
+                  </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-lg-12">
-                  <button class="shrimp-button">Price</button>
-                  <button class="shrimp-button">Ratings</button>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
