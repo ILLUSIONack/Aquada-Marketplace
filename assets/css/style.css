@@ -582,7 +582,7 @@ textarea {
 
 .border-firstmenu {
     position: relative;
-    left: 15px;
+    left: 52px;
 }
 
 .dropdown-menus div:not(:last-child) {
@@ -591,7 +591,7 @@ textarea {
 
 .dropdown-menu.show {
     top: 67px !important;
-    left: 15px !important;
+    left: 52px !important;
     background-color: transparent;
     outline: none;
     border:none
@@ -624,13 +624,41 @@ button.products-dropdown {
     outline: none;
 }
 
-button:focus {
+/* .catergory-button:active {
     height: 52px;
     border-radius: 15px;
     background: #fff;
     border: 3px solid #fff;
     color:black;
     opacity: 1;
+} */
+button .category-button:active { 
+    height: 52px;
+    border-radius: 15px;
+    background: #fff;
+    border: 3px solid #fff;
+    color:black;
+    opacity: 1;
+}
+
+.rotate {
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all 0.1s linear;
+}
+.rotate.down {
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
+
+.fa.fa-chevron-right.rotate {
+    color: #F6762C;
+    font-size: 18px;
+    position: relative;
+    top:10px;
+    margin-right:25px;
+    margin-left:10px;
 }
 
 /* Products dropdown menu */
