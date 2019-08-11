@@ -577,12 +577,16 @@ textarea {
     padding-left:15px;
     width:500px;
     opacity: 0.9;
-
+    font-size: 1rem;
 }
 
 .border-firstmenu {
     position: relative;
     left: 15px;
+}
+
+.dropdown-menus div:not(:last-child) {
+    padding-bottom: 5px;
 }
 
 .dropdown-menu.show {

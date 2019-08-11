@@ -1,0 +1,129 @@
+{% extends "extendables/bases/double_base.html" %}
+{% import "extendables/items/product.html" as product %}
+
+{% block sidebar_header %}
+<div class="sidebar-header">
+  <div class="row no-gutters">
+    <h1>Products</h1>
+  </div>
+  <div class="row no-gutters sidebar-content-products pt-2">
+    <p>CATEGORIES</p>
+  </div>
+</div>
+{% endblock %}
+
+{% block sidebar_content %}
+<div class="sidebar-content">
+  <div class="dropdown-menus">
+    <div id="accordion">
+      <div class="dropdown">
+        <div class="products-dropdown" id="headingOne">
+          <button class="products-dropdown collapsed" data-toggle="collapse" data-target="#collapseOne"
+            aria-expanded="false" aria-controls="collapseOne">
+            Nutrition
+          </button>
+        </div>
+        <div id="collapseOne" class="mt-3 collapse" aria-labelledby="headingOne" data-parent="#accordion" style="">
+          <div class="border-firstmenu">
+            <div class="dropdown-border ml-3">
+              <div class="row">
+                <div class="col-lg-6">
+                  <label for="type">Shrimp type</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <button class="shrimp-button">White leg shrimp</button>
+                  <button class="shrimp-button">Tiger leg shrimp</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="mt-3 col-lg-6">
+                  <label for="type">Grownth stage</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <button class="shrimp-button">1st Month</button>
+                  <button class="shrimp-button">2nd Month</button>
+                  <button class="shrimp-button">3rd Month</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="mt-2 col-lg-12">
+                  <button class="shrimp-button">4th Month</button>
+                  <button class="shrimp-button">5th Month</button>
+                  <button class="shrimp-button">6th Month</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="mt-3 col-lg-6">
+                  <label for="type">Sort by</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <button class="shrimp-button">Price</button>
+                  <button class="shrimp-button">Ratings</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="accordion2">
+      <div class="dropdown">
+        <div class="products-dropdown" id="headingTwo">
+          <button class="products-dropdown collapsed" data-toggle="collapse" data-target="#collapseTwo"
+            aria-expanded="false" aria-controls="collapseTwo">Salt</button>
+        </div>
+        <div style="" data-parent="#accordion2" aria-labelledby="headingTwo" class="mt-3 collapse" id="collapseTwo">
+          <div class="border-firstmenu">
+            <div class="dropdown-border ml-3">
+              <div class="row">
+                <div class="col-lg-6">
+                  <label for="type">Shrimp type</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <button class="shrimp-button">White leg shrimp</button>
+                  <button class="shrimp-button">Tiger leg shrimp</button>
+                </div>
+              </div>
+
+              <div class="row">
+
+              </div>
+
+              <div class="row">
+                <div class="mt-3 col-lg-6">
+                  <label for="type">Sort by</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <button class="shrimp-button">Price</button>
+                  <button class="shrimp-button">Ratings</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="row product-area">
+  {{ product.getProduct('Sun Grow Shirakura', '4.9', '69.49', 'img/Group 2@2x.png', '1') }}
+  {{ product.getProduct('Test product', '4.9', '59.29', 'img/Group 2@2x.png', '2') }}
+  {{ product.getProduct('Another product', '4.9', '89.29', 'img/Group 2@2x.png', '1') }}
+  {{ product.getProduct('Another product', '4.9', '89.29', 'img/Group 2@2x.png', '1') }}
+  {{ product.getProduct('Another product', '4.9', '89.29', 'img/Group 2@2x.png', '1') }}
+  {{ product.getProduct('Another product', '4.9', '89.29', 'img/Group 2@2x.png', '1') }}
+</div>
+{% endblock %}
