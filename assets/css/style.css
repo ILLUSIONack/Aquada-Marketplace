@@ -576,13 +576,21 @@ textarea {
     border-left: 3px solid #fff;
     padding-left:15px;
     width:500px;
+    opacity: 0.9;
+
+}
+
+.border-firstmenu {
+    position: relative;
+    left: 15px;
 }
 
 .dropdown-menu.show {
-    /* top: 20px !important;
-    left: 33px !important; */
+    top: 67px !important;
+    left: 15px !important;
     background-color: transparent;
     outline: none;
+    border:none
 }
 
 .shrimp-button{
@@ -599,10 +607,26 @@ textarea {
 }
 
 .dropdown-menu label {
-    color:white;
+    color:#fff;
 }
 .dropdown-border label {
-    color: white;
+    color: #fff;
+}
+
+button.products-dropdown {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+}
+
+button:focus {
+    height: 52px;
+    border-radius: 15px;
+    background: #fff;
+    border: 3px solid #fff;
+    color:black;
+    opacity: 1;
 }
 
 /* Products dropdown menu */
