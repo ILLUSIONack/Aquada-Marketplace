@@ -779,14 +779,14 @@ button.products-dropdown {
     outline: none;
 }
 
-/* .catergory-button:active {
+.catergory-button:active {
     height: 52px;
     border-radius: 15px;
     background: #fff;
     border: 3px solid #fff;
     color:black;
     opacity: 1;
-} */
+}
 button .category-button:active { 
     height: 52px;
 }
@@ -871,4 +871,30 @@ label.filter-header-first {
     margin-left:10px;
 }
 
+.panel-title > button {
+    display: block;
+    position: relative;
+  }
+  .panel-title > button[aria-expanded="true"]:after {
+    content: "\f078"; /* fa-chevron-up */
+  }
+
+  .panel-title > button:after {
+    top: 14px;
+    content: "\f054";
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 16px;
+    margin-left: -15px;
+    font-size: 20px;
+    color: #F6762C;
+}
+
+  .panel-title > button {
+    display: block;
+    position: relative;
+    padding-left: 38px;
+}
+
 /* Products dropdown menu */
+
