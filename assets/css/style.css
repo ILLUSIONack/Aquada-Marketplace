@@ -82,6 +82,10 @@ body {
     font-family: gaylon;
 }
 
+a.nav-link {
+    color: white;
+}
+
 #titlesize {
     width: 136px;
     height: 47px;
@@ -393,6 +397,138 @@ nav {
     font-size: 25px;
 }
 
+/* Login form */
+
+.dropdown-menu.show {
+    width: 350px;
+}
+
+button.btn.btn-primary {
+    width: 99px;
+    height: 33px;
+    border-radius: 15px;
+    background: #8bcae6;
+    border:none;
+}
+
+input#exampleDropdownFormEmail1 {
+    height: 42px;
+    border-radius: 15px;
+    background: #acacac;
+    opacity: 0.24;
+}
+
+input#exampleDropdownFormPassword1 {
+    height: 42px;
+    border-radius: 15px;
+    background: #acacac;
+    opacity: 0.24;
+}
+
+.dropdown-menu {
+    border-radius: 15px;
+    padding: 5px 0px 0px;
+}
+
+label.form-check-label {
+    color: #AFAFAF;
+    position: relative;
+}
+
+.dropdown-divider {
+    border: 1.5px solid #8bcae6;
+}
+
+a.nav-link {
+    color: #FFFFFF;
+}
+
+input#dropdownCheck {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.login-form .form-group .label {}
+
+.form-group label {
+    font-size: 13px;
+}
+
+.form-check-input {
+    position: relative;
+}
+
+.login-form .form-check {
+    padding-left: 0;
+}
+
+.form-action button, .form-action label{
+    font-size: 12px !important;
+}
+
+.checkbox-container {
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0;
+  }
+  
+  .checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkbox-container .checkmark {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    margin-left: 8px;
+    border-radius: 8px;
+    border: solid 3px #AFAFAF;
+    background-color: white;
+  }
+  
+  .checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .checkbox-container input:checked ~ .checkmark {
+    background-color: #8bcae6;
+    border: solid 3px #67B2D3;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .checkbox-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  
+ /* \\Login form */
+
+
 /*
  *  Scrollbar
  */
@@ -459,6 +595,41 @@ img.check {
 .return {
     padding-top: 150px;
 }
+
+/* Registration page */
+.input {
+    display: inline-block;
+    width: 100px;
+    vertical-align: middle;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 2px solid #8BCAE6;
+    border-radius: 0;
+    width: 150px;
+}
+
+.bordersize-name-input{
+    width: 100%;
+}
+
+.bordersize-rest-fields{
+    width: 100%;
+}
+
+.input-text{
+    color: rgba(255, 255, 255, 0.71);
+    font-size: 15px;
+}
+
+.register-button{
+    width: 135px;
+    height: 41px;
+    border-radius: 20.5px;
+    background: linear-gradient(#f6762c 0%, #ff7171 100%);
+    color:#FFFFFF;
+}
+/* \\Registration page */
+
 
 @media (max-width:1199px) {
     .content-wrapper {
@@ -594,25 +765,9 @@ textarea {
     left: 52px !important;
     background-color: transparent;
     outline: none;
-    border:none
+    border:none;
 }
 
-.shrimp-button{
-    height: 47.24px;
-    border-radius: 15px;
-    background: rgba(0, 0, 0, 0.62);
-    border: 1px solid #fff;
-    opacity: 0.6;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
-    color:#fff;
-    padding-left:20px;
-    padding-right:20px;
-
-}
-
-.dropdown-menu label {
-    color:#fff;
-}
 .dropdown-border label {
     color: #fff;
 }
@@ -634,11 +789,66 @@ button.products-dropdown {
 } */
 button .category-button:active { 
     height: 52px;
+}
+button:focus {
+    outline: 0;
+}
+
+.radiocontainer {
+    display: block;
+    position: relative;
+    /* padding-left: 35px; */
+    /* margin-bottom: 12px; */
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .radiocontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .radiocontainer .checkmark {
     border-radius: 15px;
-    background: #fff;
-    border: 3px solid #fff;
-    color:black;
+    background: rgba(0, 0, 0, 0.61);
+    border: 1px solid #fff;
+    opacity: 0.6;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    padding: 13px 19px 13px;
+  }
+  
+  .radiocontainer:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .radiocontainer input:checked ~ .checkmark {
+    background-color: #ffffff;
     opacity: 1;
+    color: black;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+ 
+  label.radiocontainer {
+    display: inline;
+}
+
+label.filter-header {
+    padding: 22px 0px 8px;
+}
+
+label.filter-header-first {
+    padding: 0px 0px 12px;
 }
 
 .rotate {

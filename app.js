@@ -17,7 +17,9 @@ app.get('/search', (req, res) => res.render('pages/search.html', {
     search_query: "glycinate"
 }));
 
-app.get('/product', (req, res) => res.render('pages/products.html'));
+app.get('/products', (req, res) => res.render('pages/products.html'));
+
+app.get('/register', (req, res) => res.render('pages/register.html'));
 
 app.get('/productdescription', (req, res) => res.render('pages/productdescription.html'));
 
