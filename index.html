@@ -59,7 +59,7 @@
                 <a class="nav-link" role="button" href="#">Sign in</a>
               </div>
             </li>
-            <div class="dropdown-menu">
+            <div class="dropdown-menu login-form mt-3">
               <form class="px-4 py-3">
                 <div class="form-group">
                   <label for="exampleDropdownFormEmail1">Name / Email</label>
@@ -69,15 +69,17 @@
                   <label for="exampleDropdownFormPassword1">Password</label>
                   <input type="password" class="form-control" id="exampleDropdownFormPassword1">
                 </div>
-                <div class="dropdown-divider"></div>
-                <div class="form-check d-flex justify-content-between">
+                <div class="dropdown-divider mt-4 mb-3"></div>
+                <div class="form-check d-flex justify-content-between form-action">
                   <div>
-                    <button type="submit" class="btn btn-primary">Login</button>
+                    <button type="submit" class="btn btn-primary">Log in</button>
                   </div>
-                  <div>
-                    <label class="form-check-label" for="dropdownCheck">Remember me</label>
-                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
-                  </div>
+                  <label
+                    class="checkbox-container d-flex justify-content-center self-align-center text-center align-items-center justify-content-between">
+                    <label class="form-check-label pt-1" for="dropdownCheck">Remember me</label>
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
                 </div>
 
               </form>
