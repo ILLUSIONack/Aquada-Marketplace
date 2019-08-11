@@ -643,7 +643,7 @@ button .category-button:active {
 
 .rotate {
     -moz-transition: all .5s linear;
-    -webkit-transition: all .5s linear;
+    -webkit-transition: all .1s linear;
     transition: all 0.1s linear;
 }
 .rotate.down {
