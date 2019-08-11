@@ -19,6 +19,8 @@ app.get('/search', (req, res) => res.render('pages/search.html', {
 
 app.get('/product', (req, res) => res.render('pages/products.html'));
 
+app.get('/register', (req, res) => res.render('pages/register.html'));
+
 app.get('/productdescription', (req, res) => res.render('pages/productdescription.html'));
 
 app.listen(port, () => console.log(`Aquada app listening on port ${port}!`))

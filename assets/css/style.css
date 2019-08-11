@@ -82,6 +82,10 @@ body {
     font-family: gaylon;
 }
 
+a.nav-link {
+    color: white;
+}
+
 #titlesize {
     width: 136px;
     height: 47px;
@@ -459,6 +463,41 @@ img.check {
 .return {
     padding-top: 150px;
 }
+
+/* Registration page */
+.input {
+    display: inline-block;
+    width: 100px;
+    vertical-align: middle;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 2px solid #8BCAE6;
+    border-radius: 0;
+    width: 150px;
+}
+
+.bordersize-name-input{
+    width: 100%;
+}
+
+.bordersize-rest-fields{
+    width: 100%;
+}
+
+.input-text{
+    color: rgba(255, 255, 255, 0.71);
+    font-size: 15px;
+}
+
+.register-button{
+    width: 135px;
+    height: 41px;
+    border-radius: 20.5px;
+    background: linear-gradient(#f6762c 0%, #ff7171 100%);
+    color:#FFFFFF;
+}
+/* \\Registration page */
+
 
 @media (max-width:1199px) {
     .content-wrapper {
