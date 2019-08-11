@@ -1,0 +1,22 @@
+{% extends "extendables/bases/double_base.html" %}
+{% import "extendables/items/product.html" as product %}
+
+{% block sidebar_header %}
+<div class="sidebar-header">
+    <h1>Search Results</h1>
+</div>
+{% endblock %}
+
+{% block sidebar_content %}
+<div class="sidebar-content pt-2">
+    <p>For <span class="font-weight-bold">„{{ search_query }}"</span></p>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="row product-area">
+    {{ product.getProduct('Sun Grow Shirakura', '4.9', '135', 'img/Group 2@2x.png', '1') }}
+    {{ product.getProduct('Test product', '4.9', '246', 'img/Group 2@2x.png', '2') }}
+    {{ product.getProduct('Another product', '4.9', '135', 'img/Group 2@2x.png', '1') }}
+</div>
+{% endblock %}

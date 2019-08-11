@@ -1,0 +1,13 @@
+{% extends "extendables/bases/base.html" %}
+
+{% block body %}
+<div class="container-aquada">
+    {% include "partials/_nav.html" %}
+    <div class="main">
+        <div class="row content-wrapper">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
+</div>
+{% endblock %}
