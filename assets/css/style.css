@@ -941,4 +941,37 @@ label.filter-header-first {
 .shipping-adress{
     font-size: 15px;
 }
+
+.cart-input-fields {
+    width:244px;
+    margin-left:-12px;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 2px solid #8BCAE6;
+    border-radius: 0;
+
+}
+
+.partial-cart-input-fields{
+    width:120px;
+    margin-left:-12px;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 2px solid #8BCAE6;
+    border-radius: 0;
+}
+
+.partial-cart-input-fields-2{
+    margin-left:10px;
+    width:112px;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 2px solid #8BCAE6;
+    border-radius: 0;
+}
+
+.cart-label-size{
+    font-size:14px !important;
+}
 /* Cart checkout*/
+
