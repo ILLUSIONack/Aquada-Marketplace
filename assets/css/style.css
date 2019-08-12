@@ -898,3 +898,11 @@ label.filter-header-first {
 
 /* Products dropdown menu */
 
+.clicked{
+    height: 52px;
+    border-radius: 15px;
+    background-color: #fff !important;
+    border: 3px solid #fff;
+    color:black !important;
+    opacity: 1;
+}
