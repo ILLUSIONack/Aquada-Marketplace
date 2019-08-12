@@ -1,0 +1,78 @@
+{% extends "extendables/bases/double_base.html" %}
+{% import "extendables/items/product.html" as product %}
+
+{% block sidebar_header %}
+<div class="sidebar-header">
+  <div class="row no-gutters">
+    <h1>Your Cart</h1>
+  </div>
+  <div class="row no-gutters sidebar-content-products pt-2">
+    <p>ORDER SUMMARY</p>
+  </div>
+</div>
+{% endblock %}
+
+{% block sidebar_content %}
+<div class="sidebar-content">
+  <div class="row d-flex justify-content-between cart-width">
+    <div class="order-summary">
+      <div>
+        <label for="">Items</label>
+      </div>
+    </div>
+    <div>
+      <div>
+        <label for="">$ 564.81</label>
+      </div>
+    </div>
+  </div>
+  <div class="row d-flex justify-content-between cart-width">
+    <div class="order-summary">
+      <div>
+        <label for="">Delivery & Handling</label>
+      </div>
+    </div>
+    <div>
+      <div>
+        <label for="">$ 29.45</label>
+      </div>
+    </div>
+  </div>
+  <div class="row d-flex justify-content-between cart-width">
+    <div class="order-summary">
+      <div>
+        <label for="">Estimated Tax</label>
+      </div>
+    </div>
+    <div>
+      <div>
+        <label for="">$ 54.22</label>
+      </div>
+    </div>
+  </div>
+  <div class="dividing-cart-line"></div>
+  <div class="row d-flex justify-content-between cart-width-total">
+      <div class="order-summary">
+        <div>
+          <label for="">Total</label>
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="">$ 29.45</label>
+        </div>
+      </div>
+    </div>  
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="row product-area">
+  {{ product.getProduct('Sun Grow Shirakura', '4.9', '69.49', 'img/Group 2@2x.png', '1') }}
+  {{ product.getProduct('Test product', '4.9', '59.29', 'img/Group 2@2x.png', '2') }}
+  {{ product.getProduct('Another product', '4.9', '89.29', 'img/Group 2@2x.png', '1') }}
+  {{ product.getProduct('Another product', '4.9', '89.29', 'img/Group 2@2x.png', '1') }}
+  {{ product.getProduct('Another product', '4.9', '89.29', 'img/Group 2@2x.png', '1') }}
+  {{ product.getProduct('Another product', '4.9', '89.29', 'img/Group 2@2x.png', '1') }}
+</div>
+{% endblock %}

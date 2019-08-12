@@ -913,3 +913,28 @@ label.filter-header-first {
 }
 
 /* Services accordion */
+
+/* Cart checkout*/
+.cart-width{
+    width:90%;
+    font-size: 21px;
+}
+
+.cart-width-total{
+    width:90%;
+    font-size: 35px;
+}
+
+.dividing-cart-line {
+    width: 531px;
+    height: 0px;
+    background: transparent;
+    border: 2px solid #fff;
+    opacity: 0.2;
+    margin-left: -16px;
+}
+
+.order-summary{
+    padding-top:-20px;
+}
+/* Cart checkout*/
