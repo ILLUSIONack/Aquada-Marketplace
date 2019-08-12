@@ -937,4 +937,8 @@ label.filter-header-first {
 .order-summary{
     padding-top:-20px;
 }
+
+.shipping-adress{
+    font-size: 15px;
+}
 /* Cart checkout*/
