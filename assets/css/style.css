@@ -5,6 +5,7 @@ body {
     background-image: url("../img/background.png");
     background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
     margin: 0px;
     height: 100vh;
     overflow: hidden;
@@ -46,7 +47,7 @@ body {
 }
 
 .container-aquada {
-    margin-left: 78px;
+    margin-left: 70px;
     margin-right: 70px;
 }
 
@@ -90,6 +91,20 @@ a.nav-link {
     width: 136px;
     height: 47px;
 }
+.nav-buttons{
+    color:white;
+    background-color: transparent;
+    border:none;
+    font-size: 20px;
+}
+
+.nav-font-size{
+    font-size:24px !important;
+}
+
+a.nav-link {
+    font-size:24px !important;
+}
 
 #signin-border {
     border-left: 3px solid#8BCAE6;
@@ -128,6 +143,10 @@ nav {
     padding: 0px !important;
 }
 
+i.fa.fa-search {
+    color: white;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #FFFFFF;
     padding-left: 20px;
@@ -150,12 +169,28 @@ nav {
     vertical-align: middle;
     background-color: transparent !important;
     border: none;
-    border-bottom: 3px solid #8BCAE6;
     border-radius: 0;
     width: 150px;
     box-shadow: none;
+    color:white;
 }
 
+form.px-4.py-3 {
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    top: -19px;
+    width: 288px;
+    left: -36px;
+}
+
+.blue-border-bottom{
+    border-bottom: 3px solid #8BCAE6;
+}
+
+.blue-border-left{
+    border-left: 3px solid #8BCAE6;
+}
 .custom-container {
     max-width: 2400px;
     width: 100%;
@@ -665,7 +700,6 @@ img.check {
     border: none;
     margin-right: -10px;
     background: transparent;
-    border-bottom: 3px solid #8BCAE6;
 }
 
 button,
