@@ -588,6 +588,15 @@ input#dropdownCheck {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+
+
+    form.px-4.py-3 {
+        background-color: white;
+        border-radius: 15px;
+        position: relative;
+        left: -28px;
+        top: -18px;
+    }
   
   
  /* \\Login form */
@@ -961,6 +970,7 @@ label.filter-header-first {
 
 /* Products dropdown menu */
 
+
 /* Services accordion */
 .accordion-input-fields {
     width: 134.89px;
@@ -1062,4 +1072,13 @@ label.filter-header-first {
     padding:0px 11px;
 }
 /* Cart checkout*/
+
+.clicked{
+    height: 52px;
+    border-radius: 15px;
+    background-color: #fff !important;
+    border: 3px solid #fff;
+    color:black !important;
+    opacity: 1;
+}
 
