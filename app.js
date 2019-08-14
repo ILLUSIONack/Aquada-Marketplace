@@ -19,6 +19,7 @@ app.get('/search', (req, res) => res.render('pages/search.html', {
 
 app.get('/products', (req, res) => res.render('pages/products.html'));
 app.get('/services', (req, res) => res.render('pages/services.html'));
+app.get('/cart', (req, res) => res.render('pages/cart.html'));
 
 app.get('/register', (req, res) => res.render('pages/register.html'));
 

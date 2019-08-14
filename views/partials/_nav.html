@@ -1,17 +1,19 @@
 <nav class="navbar navbar-expand-lg navbar-light mt-3">
-    <div class="d-flex">
+    <div class="d-flex justify-content-start">
         <!-- <a class="navbar-brand m-4" id="nav-title" href="#">AQUADA</a>-->
-        <img class="m-4" src="img/title.png" id="titlesize">
-        <img src="img/shrimplogo.png" id="logosize" alt="Kiwi standing on oval">
-
-        <form class="form-inline my-2 my-lg-0">
-            <button class="search-button">🔍</button>
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-
-        </form>
+        <a class="" href="/">
+            <img class="m-3" src="img/title.png" id="titlesize">
+            <img src="img/shrimplogo.png" id="logosize" alt="Kiwi standing on oval">
+        </a>
+        <div class="form-inline my-2 my-lg-0">
+            <form class="blue-border-bottom">
+                <button class="search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                <input class="form-control mr-sm-2" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
     </div>
 
-    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse justify-content-center">
         <ul class="navbar-nav mr-center">
             <li class="nav-item ml-4 active">
                 <a class="nav-link" href="/">Offers</a>
@@ -27,54 +29,46 @@
             </li>
         </ul>
     </div>
-
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="dropdown" data-toggle="dropdown" aria-expanded="false">
-                <li class="row nav-item">
-                    <div class="col-3">
-                        <img class="nav-link" id="signin-border" src="img/signin.png" alt="">
-                    </div>
-                    <div class="col-9">
-                        <a class="nav-link" role="button" href="#">Sign in</a>
-                    </div>
-                </li>
-                <div class="dropdown-menu login-form">
-                    <form class="px-4 py-3">
-                        <div class="form-group">
-                            <label for="exampleDropdownFormEmail1">Name / Email</label>
-                            <input type="email" class="form-control" id="exampleDropdownFormEmail1">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleDropdownFormPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleDropdownFormPassword1">
-                        </div>
-                        <div class="dropdown-divider mt-4 mb-3"></div>
-                        <div class="form-check d-flex justify-content-between form-action">
-                            <div>
-                                <button type="submit" class="btn btn-primary">Log in</button>
+    <div class="ml-auto row">
+        <div class="navbar-nav blue-border-left pl-2">
+            <div class="nav-item">
+                <div class="dropdown">
+                    <button class="nav-link nav-buttons nav-font-size mr-3" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-user mr-3" aria-hidden="true"></i> Sign In
+                    </button>
+                    <div class="dropdown-menu">
+                        <form class="px-4 py-3">
+                            <div class="form-group">
+                                <label for="exampleDropdownFormEmail1">Name / Email</label>
+                                <input type="email" class="form-control" id="exampleDropdownFormEmail1">
                             </div>
-                            <label
-                                class="checkbox-container d-flex justify-content-center self-align-center text-center align-items-center justify-content-between">
-                                <label class="form-check-label pt-1" for="dropdownCheck">Remember me</label>
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
+                            <div class="form-group">
+                                <label for="exampleDropdownFormPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleDropdownFormPassword1">
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <div class="form-check d-flex row justify-content-between">
+                                <div><button type="submit" class="btn btn-primary">Login</button></div>
 
-                    </form>
+                                <div class="d-flex align-items-center">
+                                    <label class="form-check-label" for="dropdownCheck">
+                                        Remember me
+                                    </label>
+                                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-lg-6">
-            <li class="row nav-item">
-                <div class="col-3">
-                    <img class="nav-link" src="img/signin.png" alt="">
-                </div>
-                <div class="col-9">
-                    <a class="nav-link" role="button" href="#">Cart</a>
-                </div>
-            </li>
+            <div class="nav-item">
+                <button class="nav-link nav-buttons nav-font-size mr-3" type="button" href="/">
+                    <i class="fa fa-cart-arrow-down mr-3" aria-hidden="true"></i>Cart
+                </button>
+            </div>
+
         </div>
     </div>
 </nav>

@@ -1,0 +1,132 @@
+{% extends "extendables/bases/double_base.html" %}
+{% import "extendables/items/product.html" as product %}
+
+{% block sidebar_header %}
+<div class="sidebar-header">
+  <div class="row no-gutters">
+    <h1>Your Cart</h1>
+  </div>
+</div>
+{% endblock %}
+
+{% block sidebar_content %}
+<div class="sidebar-content">
+    <div class="row cart-label-size sidebar-content-products pt-2">
+        <p>ORDER SUMMARY</p>
+      </div>
+  <div class="row d-flex justify-content-between cart-width-top">
+    <div class="order-summary">
+      <div>
+        <label for="">Items</label>
+      </div>
+    </div>
+    <div>
+      <div>
+        <label for="">$ 564.81</label>
+      </div>
+    </div>
+  </div>
+  <div class="row d-flex justify-content-between cart-width-top">
+    <div class="order-summary">
+      <div>
+        <label for="">Delivery & Handling</label>
+      </div>
+    </div>
+    <div>
+      <div>
+        <label for="">$ 29.45</label>
+      </div>
+    </div>
+  </div>
+  <div class="row d-flex justify-content-between cart-width-top">
+    <div class="order-summary">
+      <div>
+        <label for="">Estimated Tax</label>
+      </div>
+    </div>
+    <div>
+      <div>
+        <label for="">$ 54.22</label>
+      </div>
+    </div>
+  </div>
+  <div class="dividing-cart-line cart-width-top"></div>
+  <div class="row d-flex justify-content-between cart-width-total">
+    <div class="order-summary">
+      <div>
+        <label for="">Total</label>
+      </div>
+    </div>
+    <div>
+      <div>
+        <label for="">$ 29.45</label>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="row d-flex justify-content-between cart-width mt-2 cart-label-size">
+      <label class="shipping-adress" for="">SHIPPING ADDRESS</label>
+
+    </div>
+    <div class="row no-gutters cart-width mt-2">
+      <div class="col-md-6">
+        <input class="cart-input-fields" type="text">
+        <label class="cart-label-size-left">Recipient Name</label>
+      </div>
+      <div class="col-md-6">
+        <input class="ml-1 cart-input-fields" type="text">
+        <label class="cart-label-size">Address Line 1</label>
+      </div>
+    </div>
+    <div class="row no-gutters cart-width mt-2">
+      <div class="col-md-6">
+        <input class="cart-input-fields" type="text">
+        <label class="cart-label-size-left">Phone</label>
+      </div>
+      <div class="col-md-6">
+        <input class="ml-1 cart-input-fields" type="text">
+        <label class="cart-label-size">Address Line 2</label>
+      </div>
+    </div>
+    <div class="row no-gutters cart-width mt-2">
+      <div class="col-md-6 ">
+        <div class="row"><label class="cart-label-size" for="">EST. DELIVERY DATE</label></div>
+        <div class="row"><label class="cart-label-size" for="">-</label></div>
+        
+      </div>
+      <div class="col-md-6">
+        <div class="row no-gutters">
+          <div class="col-md-6">
+            <input class="ml-1 partial-cart-input-fields" type="text">
+            <label class="ml-1 cart-label-size">PostalCode</label>
+          </div>
+          <div class="col-md-6">
+            <input class="partial-cart-input-fields-2" type="text">
+            <label class="ml-2 cart-label-size">State</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <label class="shipping-adress"for="">PAYMENT METHOD</label>
+    </div>
+    <div class="row">
+      <button class="payment-buttons">Credit Cart</button>
+      <button class="payment-buttons ml-2">Bank Transaction</button>
+      <button class="payment-buttons ml-2">PayPal</button>
+    </div>
+
+  </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="row product-area">
+  {{ product.getProduct('Sun Grow Shirakura', '4.9', '69.49', 'img/Group 2@2x.png', '1') }}
+  {{ product.getProduct('Test product', '4.9', '59.29', 'img/Group 2@2x.png', '2') }}
+  {{ product.getProduct('Another product', '4.9', '89.29', 'img/Group 2@2x.png', '1') }}
+  {{ product.getProduct('Another product', '4.9', '89.29', 'img/Group 2@2x.png', '1') }}
+  {{ product.getProduct('Another product', '4.9', '89.29', 'img/Group 2@2x.png', '1') }}
+  {{ product.getProduct('Another product', '4.9', '89.29', 'img/Group 2@2x.png', '1') }}
+</div>
+{% endblock %}
