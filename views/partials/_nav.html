@@ -5,12 +5,12 @@
             <img class="m-4" src="img/title.png" id="titlesize">
             <img src="img/shrimplogo.png" id="logosize" alt="Kiwi standing on oval">
         </a>
-        <form class="form-inline my-2 my-lg-0">
+        <div class="form-inline my-2 my-lg-0">
             <form class="blue-border-bottom">
-                <button class="search-button"><i class="fa fa-search" aria-hidden="true"></i></button>            
+                <button class="search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             </form>
-        </form>
+        </div>
     </div>
 
     <div class="collapse navbar-collapse justify-content-center">
@@ -30,29 +30,27 @@
         </ul>
     </div>
     <div class="ml-auto">
-        <div class="navbar-nav blue-border-left">
+        <div class="navbar-nav blue-border-left pl-2">
             <div class="nav-item">
                 <div class="dropdown">
-                    <button class="nav-link nav-buttons nav-font-size" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-user mr-3" aria-hidden="true"></i> Sign in
+                    <button class="nav-link nav-buttons nav-font-size mr-3" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-user mr-3" aria-hidden="true"></i> Sign In
                     </button>
                     <div class="dropdown-menu">
                         <form class="px-4 py-3">
                             <div class="form-group">
                                 <label for="exampleDropdownFormEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleDropdownFormEmail1"
-                                    placeholder="email@example.com">
+                                <input type="email" class="form-control" id="exampleDropdownFormEmail1">
                             </div>
                             <div class="form-group">
                                 <label for="exampleDropdownFormPassword1">Password</label>
-                                <input type="password" class="form-control" id="exampleDropdownFormPassword1"
-                                    placeholder="Password">
+                                <input type="password" class="form-control" id="exampleDropdownFormPassword1">
                             </div>
                             <div class="dropdown-divider"></div>
                             <div class="form-check d-flex justify-content-between">
                                 <div><button type="submit" class="btn btn-primary">Login</button></div>
-                                
+
                                 <div class="">
                                     <label class="form-check-label" for="dropdownCheck">
                                         Remember me
@@ -60,13 +58,14 @@
                                     <input type="checkbox" class="form-check-input" id="dropdownCheck">
                                 </div>
                             </div>
-                            
+
                         </form>
                     </div>
                 </div>
             </div>
             <div class="nav-item">
-                <button class="nav-link nav-buttons nav-font-size" type="button" href="/"><i class="fa fa-cart-arrow-down mr-3" aria-hidden="true"></i>
+                <button class="nav-link nav-buttons nav-font-size mr-3" type="button" href="/"><i
+                        class="fa fa-cart-arrow-down mr-3" aria-hidden="true"></i>
                     Cart</button>
             </div>
 
