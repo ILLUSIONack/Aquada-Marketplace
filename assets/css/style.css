@@ -920,13 +920,17 @@ label.filter-header-first {
     font-size: 21px;
 }
 
+.cart-width-top{
+    width:92%;
+    font-size: 21px;
+}
+
 .cart-width-total{
-    width:90%;
+    width:92%;
     font-size: 35px;
 }
 
 .dividing-cart-line {
-    width: 531px;
     height: 0px;
     background: transparent;
     border: 2px solid #fff;
@@ -984,16 +988,15 @@ label.filter-header-first {
     font-size:14px !important;
 }
 
-.payment-buttons{
-    width: 99.07px;
+.payment-buttons {
     height: 47.24px;
     border-radius: 23.62px;
     background: linear-gradient(#f6762c 0%, #ff7171 100%);
-    opacity: 0.7;
-    color:white;
-    font-size:14px;
-    margin-left:5px;
-    outline:none;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    padding:0px 11px;
 }
 /* Cart checkout*/
 

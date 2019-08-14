@@ -6,15 +6,15 @@
   <div class="row no-gutters">
     <h1>Your Cart</h1>
   </div>
-  <div class="row no-gutters sidebar-content-products pt-2">
-    <p>ORDER SUMMARY</p>
-  </div>
 </div>
 {% endblock %}
 
 {% block sidebar_content %}
 <div class="sidebar-content">
-  <div class="row d-flex justify-content-between cart-width">
+    <div class="row cart-label-size sidebar-content-products pt-2">
+        <p>ORDER SUMMARY</p>
+      </div>
+  <div class="row d-flex justify-content-between cart-width-top">
     <div class="order-summary">
       <div>
         <label for="">Items</label>
@@ -26,7 +26,7 @@
       </div>
     </div>
   </div>
-  <div class="row d-flex justify-content-between cart-width">
+  <div class="row d-flex justify-content-between cart-width-top">
     <div class="order-summary">
       <div>
         <label for="">Delivery & Handling</label>
@@ -38,7 +38,7 @@
       </div>
     </div>
   </div>
-  <div class="row d-flex justify-content-between cart-width">
+  <div class="row d-flex justify-content-between cart-width-top">
     <div class="order-summary">
       <div>
         <label for="">Estimated Tax</label>
@@ -50,7 +50,7 @@
       </div>
     </div>
   </div>
-  <div class="dividing-cart-line"></div>
+  <div class="dividing-cart-line cart-width-top"></div>
   <div class="row d-flex justify-content-between cart-width-total">
     <div class="order-summary">
       <div>
@@ -112,8 +112,8 @@
     </div>
     <div class="row">
       <button class="payment-buttons">Credit Cart</button>
-      <button class="payment-buttons">Bank Transaction</button>
-      <button class="payment-buttons">PayPal</button>
+      <button class="payment-buttons ml-2">Bank Transaction</button>
+      <button class="payment-buttons ml-2">PayPal</button>
     </div>
 
   </div>
