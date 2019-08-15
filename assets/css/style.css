@@ -249,10 +249,11 @@ form.px-4.py-3 {
     height: 635px;
     padding-right: 50px;
     padding-left: 0;
+    margin-top:91px;
 }
 
 .content-wrapper {
-    padding-top: 147px;
+    padding-top: 75px;
 }
 
 .hr-1 {
