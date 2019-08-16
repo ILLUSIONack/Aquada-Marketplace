@@ -208,9 +208,9 @@ form.px-4.py-3 {
     background-color: white;
     border-radius: 15px;
     position: relative;
-    top: -26px;
+    top: -25px;
     width: 290px;
-    left: -50px;
+    left: -54px;
 }
 
 .blue-border-bottom{
@@ -589,15 +589,6 @@ input#dropdownCheck {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
-
-
-    form.px-4.py-3 {
-        background-color: white;
-        border-radius: 15px;
-        position: relative;
-        left: -28px;
-        top: -18px;
-    }
   
   
  /* \\Login form */
@@ -795,6 +786,10 @@ textarea {
     .small-screen-images {
         height: 20px !important;
         width: 20px !important;
+    }
+
+    .blue-border-bottom {
+        border:none;
     }
 }
 
@@ -1083,3 +1078,10 @@ label.filter-header-first {
     opacity: 1;
 }
 
+/* Account dropdown menu */
+/* .account-user-dropdown{
+    margin-top:-13px !important;
+} */
+
+
+/* Account dropdown menu */
