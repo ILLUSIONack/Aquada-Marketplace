@@ -72,7 +72,7 @@ body {
 }
 
 .action-area .primary-button {
-    width: 244px;
+    width: 290px;
     font-size: 20px;
     padding: 6px;
 }
@@ -651,6 +651,11 @@ input#dropdownCheck {
 
 .cont-description p {
     font-size: 17px;
+    height:185px
+}
+
+.cont-description{
+    margin-left:-10px;
 }
 
 img.check {

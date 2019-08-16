@@ -22,6 +22,7 @@ app.get('/services', (req, res) => res.render('pages/services.html'));
 app.get('/cart', (req, res) => res.render('pages/cart.html'));
 
 app.get('/register', (req, res) => res.render('pages/register.html'));
+app.get('/accountnav', (req, res) => res.render('partials/accountNav.html'));
 
 app.get('/productdescription', (req, res) => res.render('pages/productdescription.html'));
 
