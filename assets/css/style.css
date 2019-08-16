@@ -72,7 +72,7 @@ body {
 }
 
 .action-area .primary-button {
-    width: 290px;
+    width: 100%;
     font-size: 20px;
     padding: 6px;
 }
