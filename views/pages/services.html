@@ -1,5 +1,5 @@
 {% extends "extendables/bases/double_base.html" %}
-{% import "extendables/items/product.html" as product %}
+{% import "extendables/items/service.html" as service %}
 
 {% block sidebar_header %}
 <div class="sidebar-header">
@@ -61,11 +61,11 @@
 
 {% block content %}
 <div class="row product-area">
-  {{ product.getProduct('Sun Grow Shirakura', '4.9', '69.49', 'img/Group 2@2x.png', '1') }}
-  {{ product.getProduct('Test product', '4.9', '59.29', 'img/Group 2@2x.png', '2') }}
-  {{ product.getProduct('Another product', '4.9', '89.29', 'img/Group 2@2x.png', '1') }}
-  {{ product.getProduct('Another product', '4.9', '89.29', 'img/Group 2@2x.png', '1') }}
-  {{ product.getProduct('Another product', '4.9', '89.29', 'img/Group 2@2x.png', '1') }}
-  {{ product.getProduct('Another product', '4.9', '89.29', 'img/Group 2@2x.png', '1') }}
+  {{ service.getProduct('Sun Grow Shirakura', '4.9', '69.49','0.90', 'img/Group 2@2x.png', '1') }}
+  {{ service.getProduct('Testss product', '4.9', '59.29', '0.90', 'img/Group 2@2x.png', '2') }}
+  {{ service.getProduct('Another product', '4.9', '89.29', '0.90', 'img/Group 2@2x.png', '1') }}
+  {{ service.getProduct('Another product', '4.9', '89.29', '0.90', 'img/Group 2@2x.png', '1') }}
+  {{ service.getProduct('Another product', '4.9', '89.29', '0.90', 'img/Group 2@2x.png', '1') }}
+  {{ service.getProduct('Another product', '4.9', '89.29', '0.90', 'img/Group 2@2x.png', '1') }}
 </div>
 {% endblock %}

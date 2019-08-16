@@ -1,0 +1,64 @@
+{% macro getProduct(title, rating, price, interest, image, weight, responsive=true) %}
+{% if responsive %}
+<div class="product col-md-6 col-lg-4 col-sm-12">
+{% else %}
+
+<div class="product">
+{% endif %}
+    <div class="product-content d-flex">
+        <div class="row product-item ">
+            <div class="product-image-wrapper d-flex justify-content-center product-item-pt item-pb">
+            <div class="row no-gutters"><img
+                    src="{{image}}"
+                    class="img-s1"></div>
+            <div class="row no-gutters pt-3 d-flex justify-content-center">
+                <div class="row d-flex justify-content-center no-gutters rating-area">
+                    <div class="col-md-9 d-flex justify-content-center star-area">
+                        <div class="stars d-flex justify-content-center align-self-center">
+                        {% for i in range(rating) -%}
+                            <div class="star full-star"></div>
+                        {%- endfor %}
+
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rating"><span class="tertiary-text">{{ rating }}</span></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="row product-info d-flex justify-content-center align-content-center">
+            <div
+            class="row no-gutters d-flex justify-content-center align-content-center product-info-wrapper">
+            <div class="product-info-block">
+                <div class="row no-gutters d-flex justify-content-center">
+                    <h3 class="service-title">{{ title }}</h3>
+                </div>
+                <hr class="hr-2">
+                <div class="ml-5 row no-gutters product-info-block">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="service-label" for="">Monthly rate</label>
+                        </div>
+                        <div class="row">
+                                <label class="service-label-cost" for="">$ {{ price }}</label>
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="">
+                            <div class="row">
+                                <label class="service-label" for="">Yearly Interest</label>
+                            </div>
+                            <div class="row">
+                                    <label class="service-label-cost" for="">{{ interest }} %</label>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endmacro %}

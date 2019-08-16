@@ -1090,3 +1090,20 @@ label.filter-header-first {
 
 
 /* Account dropdown menu */
+
+
+.service-label {
+    color:gray;
+}
+
+.service-label-cost {
+    color: #262626;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: -10px;
+}
+
+.service-title{
+    font-size: 27px;
+    color: #262626;
+}
