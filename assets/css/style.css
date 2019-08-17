@@ -1092,6 +1092,32 @@ label.filter-header-first {
     margin-top:-13px !important;
 } */
 
+form.px-4.py-3.width-logout-dropdown {
+    width: 500px;
+}
+.logout-button {
+    border-radius: 5px;
+    color: white;
+    padding: .5em;
+    text-decoration: none;
+    width: 99px;
+    height: 33px;
+    border-radius: 15px;
+    background: #8bcae6;
+    border:none;
+    padding-top: 5px;
+  }
+  
+  .logout-button:focus,
+  .logout-button:hover {
+    background-color: lightblue;
+    color:white;
+  }
+
+  a.logout-button {
+    text-decoration: none !important;
+}
+
 
 /* Account dropdown menu */
 
