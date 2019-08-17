@@ -1,0 +1,55 @@
+{% macro getProduct(title, rating, price, interest, image, weight, responsive=true) %}
+{% if responsive %}
+<div class="product col-md-12 col-lg-12 col-sm-12">
+    {% else %}
+
+    <div class="cart-product d-flex">
+        {% endif %}
+        <div class="product-content-cart">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="row no-gutters">
+                        <img src="{{image}}" class="img-s1">
+                    </div>
+                </div>
+                <div class="col-md-10 prod product-info-cart">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="left-content-cart grey-border-right d-flex justify-content-between">
+                                <div class="title-cart">
+                                    <h3 class="product-title">{{ title }}</h3>
+                                    <div class="row left-content-cart">
+                                        <div class="col-md-6">
+                                            {% for i in range(rating) -%}
+                                            <div class="row">
+                                                    <div class="star full-star"></div>
+                                            </div>
+                                            {%- endfor %}
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="rating"><span class="tertiary-text">{{ rating }}</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="price-cart">
+                                    <div class="row">
+                                        <label class="cart-price-label">Base price</label>
+                                    </div>
+                                    <div class="row">
+                                        <h3 class="product-price primary-text">$ {{ price }}</h3>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">no</div>
+                    </div>
+                    
+                </div>
+
+            </div>
+            
+        </div>
+           
+    </div>
+    {% endmacro %}
