@@ -4,8 +4,8 @@ body {
     font-weight: 400;
     background-image: url("../img/background.png");
     background-size: cover;
-    background-position: center center;
     background-repeat: no-repeat;
+    background-position: center center;
     margin: 0px;
     height: 100vh;
     overflow: hidden;
@@ -13,12 +13,21 @@ body {
     background-color: white;
 }
 
+.main {
+    height: 100%;
+}
+
+form {
+    width: 100%;
+}
+
 .form-control::placeholder { /* Firefox, Chrome, Opera */ 
     color: white; 
 } 
 
-.main {
-    height: 100%;
+textarea,
+input[type]:focus {
+    outline: 0;
 }
 
 .primary {
@@ -51,7 +60,7 @@ body {
 }
 
 .container-aquada {
-    margin-left: 70px;
+    margin-left: 78px;
     margin-right: 70px;
 }
 
@@ -72,7 +81,7 @@ body {
 }
 
 .action-area .primary-button {
-    width: 100%;
+    width: 244px;
     font-size: 20px;
     padding: 6px;
 }
@@ -95,6 +104,7 @@ a.nav-link {
     width: 136px;
     height: 47px;
 }
+
 .nav-buttons{
     color:white;
     background-color: transparent;
@@ -130,7 +140,7 @@ a.nav-link {
     margin-right: 70px;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 0px 70px 0px;
+    padding: 0px 50px 0px;
 }
 
 .overlay-page {
@@ -159,7 +169,7 @@ nav {
 
 ::placeholder {
     color: white;
-  }
+}
 
 i.fa.fa-search {
     color: white;
@@ -178,8 +188,8 @@ i.fa.fa-search {
     color: #475269;
     background-color: #FFFFFF;
     border-radius: 12px;
-    /* padding-left: 40px;
-    padding-right: 40px; */
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .fa-user:before {
@@ -192,16 +202,16 @@ i.fa.fa-search {
     font-size: 20px;
 }
 
-
 .form-inline .form-control {
     display: inline-block;
     vertical-align: middle;
     background-color: transparent !important;
     border: none;
+    border-bottom: 3px solid #8BCAE6;
     border-radius: 0;
     width: 150px;
     box-shadow: none;
-    color:white;
+    color: white;
 }
 
 form.px-4.py-3 {
@@ -220,6 +230,7 @@ form.px-4.py-3 {
 .blue-border-left{
     border-left: 3px solid #8BCAE6;
 }
+
 .custom-container {
     max-width: 2400px;
     width: 100%;
@@ -249,7 +260,7 @@ form.px-4.py-3 {
     height: 635px;
     padding-right: 50px;
     padding-left: 0;
-    margin-top:91px;
+    margin-top: 91px;
 }
 
 .content-wrapper {
@@ -350,6 +361,10 @@ form.px-4.py-3 {
     width: 100%;
     padding: 0px 23px 30px;
     margin: 0 auto;
+}
+
+.product a {
+    text-decoration: none;
 }
 
 .product-title, .product-weight{
@@ -468,7 +483,7 @@ form.px-4.py-3 {
     width: 350px;
 }
 
-button.btn.btn-primary {
+.btn.btn-primary {
     width: 99px;
     height: 33px;
     border-radius: 15px;
@@ -476,23 +491,41 @@ button.btn.btn-primary {
     border:none;
 }
 
-input#exampleDropdownFormEmail1 {
+a.primary-gradient.primary-button:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.primary-gradient.primary-button {
+    cursor: pointer;
+    line-height: normal;
+    padding: 8px 27px 8px;
+}
+
+.login-form input[type] {
     height: 42px;
     border-radius: 15px;
     background: #acacac;
     opacity: 0.24;
 }
 
-input#exampleDropdownFormPassword1 {
+input#CustomerPassword, input#CustomerEmail {
     height: 42px;
     border-radius: 15px;
     background: #acacac;
     opacity: 0.24;
 }
+
+/* input#exampleDropdownFormPassword1 {
+    height: 42px;
+    border-radius: 15px;
+    background: #acacac;
+    opacity: 0.24;
+} */
 
 .dropdown-menu {
     border-radius: 15px;
-    padding: 5px 0px 0px;
+    padding: 21px 18px 14px;
 }
 
 label.form-check-label {
@@ -651,11 +684,11 @@ input#dropdownCheck {
 
 .cont-description p {
     font-size: 17px;
-    height:185px
+    height: 185px;
 }
 
-.cont-description{
-    margin-left:-10px;
+.cont-description {
+    margin-left: -10px;
 }
 
 img.check {
@@ -735,6 +768,7 @@ img.check {
     border: none;
     margin-right: -10px;
     background: transparent;
+    border-bottom: 3px solid #8BCAE6;
 }
 
 button,
