@@ -42,6 +42,14 @@ body {
     padding: 6px 0px 6px;
 }
 
+a.primary-gradient.primary-button {
+    padding: 10px;
+}
+
+a:hover {
+    color: white;
+}
+
 .secondary {
     background-color: #262626;
 }
@@ -463,9 +471,6 @@ form.px-4.py-3 {
 
 /* Login form */
 
-.dropdown-menu.show {
-}
-
 button.btn.btn-primary {
     width: 99px;
     height: 33px;
@@ -493,6 +498,10 @@ button.btn.btn-primary {
 .dropdown-menu {
     border-radius: 15px;
     padding: 5px 0px 0px;
+}
+
+.dropdown-menu a:hover {
+    color: black;
 }
 
 label.form-check-label {
