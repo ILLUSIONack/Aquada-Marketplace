@@ -524,10 +524,6 @@ input#dropdownCheck {
     margin-left: 10px;
 }
 
-input[type]:focus {
-    outline: 0;
-}
-
 input {
     color: white;
 }
@@ -762,6 +758,7 @@ optgroup,
 select,
 textarea {
     margin: 0;
+    outline: 0;
     font-family: inherit;
     font-size: inherit;
     line-height: normal;
