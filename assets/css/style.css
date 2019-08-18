@@ -42,6 +42,10 @@ body {
     padding: 6px 0px 6px;
 }
 
+a.primary-gradient.primary-button {
+    padding: 10px;
+}
+
 .secondary {
     background-color: #262626;
 }
