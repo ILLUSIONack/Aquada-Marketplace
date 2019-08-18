@@ -465,7 +465,6 @@ form.px-4.py-3 {
 /* Login form */
 
 .dropdown-menu.show {
-    width: 350px;
 }
 
 button.btn.btn-primary {
@@ -1137,11 +1136,7 @@ a {
 }
 
 .language-img-radius {
-    border-radius: 3000px;
-}
-
-.language-img-active {
-    border: 5px solid #8BEBA9;
+    border-radius: 20px;
 }
 
 .card.card-body {
