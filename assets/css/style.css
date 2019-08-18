@@ -526,6 +526,10 @@ input[type]:focus {
     outline: 0;
 }
 
+input {
+    color: white;
+}
+
 .login-form .form-group .label {}
 
 .form-group label {
