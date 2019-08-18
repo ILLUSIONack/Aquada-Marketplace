@@ -523,6 +523,10 @@ input#dropdownCheck {
     margin-left: 10px;
 }
 
+input[type]:focus {
+    outline: 0;
+}
+
 .login-form .form-group .label {}
 
 .form-group label {
