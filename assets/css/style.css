@@ -652,7 +652,7 @@ input#dropdownCheck {
     width: 90%;
 }
 
-.cont-description p {
+.cont-description {
     font-size: 17px;
     min-height:185px
 }
@@ -1241,6 +1241,7 @@ a {
     font-size: 30px;
     color: grey;
     outline: none;
+    border:none;
 }
 
 .ammount-row-checkout {
@@ -1284,3 +1285,7 @@ a {
     width:90%;
 }
 /* Product cart */
+
+.product-title-h1 {
+    font-size: 2rem;
+}
