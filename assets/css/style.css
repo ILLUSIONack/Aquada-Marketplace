@@ -46,6 +46,10 @@ a.primary-gradient.primary-button {
     padding: 10px;
 }
 
+a:hover {
+    color: white;
+}
+
 .secondary {
     background-color: #262626;
 }
