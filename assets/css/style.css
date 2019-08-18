@@ -1137,7 +1137,11 @@ a {
 }
 
 .language-img-radius {
-    border-radius: 20px;
+    border-radius: 3000px;
+}
+
+.language-img-active {
+    border: 5px solid #8BEBA9;
 }
 
 .card.card-body {
@@ -1289,3 +1293,27 @@ a {
 .product-title-h1 {
     font-size: 2rem;
 }
+
+
+/* Shrimp description page */
+
+.graphs {
+    min-height:140px;
+}
+
+.label-graph-data {
+    font-size: 22px;
+}
+
+.add-to-cartbutton {
+    border-radius: 20.5px;
+    background: linear-gradient(#f6762c 0%, #ff7171 100%);
+    border:none;
+    outline:none;
+    padding: 5px 0px;
+    padding-left:30px;
+    padding-right:30px;
+    color: white;
+    text-align: center;
+}
+/* Shrimp description page */
