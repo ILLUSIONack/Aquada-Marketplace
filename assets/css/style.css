@@ -1093,7 +1093,7 @@ label.filter-header-first {
 } */
 
 form.px-4.py-3.width-logout-dropdown {
-    width: 500px;
+    width: 256px;
 }
 .logout-button {
     border-radius: 5px;
@@ -1108,16 +1108,51 @@ form.px-4.py-3.width-logout-dropdown {
     padding-top: 5px;
   }
   
-  .logout-button:focus,
-  .logout-button:hover {
+.logout-button:focus,
+.logout-button:hover {
     background-color: lightblue;
     color:white;
-  }
+}
 
-  a.logout-button {
+a {
     text-decoration: none !important;
 }
 
+.logout-dropdown-buttons {
+    color:#262626;
+}
+
+
+.languages-dropdown-background {
+    width: 100%;
+    height: 60px;
+    background: #ebebeb;
+    border-radius: 12px;
+    top: -17px;
+    left: -2px; 
+    position: relative;
+}
+
+.language-img-radius {
+    border-radius: 20px;
+}
+
+.card.card-body {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #EBEBEB;
+    background-clip: border-box;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    border-radius: 15px;
+    width: 220px;
+    outline:none;
+    border: none;
+}
 
 /* Account dropdown menu */
 
