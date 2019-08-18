@@ -1,4 +1,4 @@
-{% macro getProduct(title, rating, price, image, responsive=true) %}
+{% macro getProduct(title, rating, price, image, amount, responsive=true) %}
 {% if responsive %}
 <div class="product col-md-12 col-lg-12 col-sm-12">
     {% else %}
@@ -57,10 +57,10 @@
                         <div class="col-md-3">
                             <div class="row ammount-row-checkout d-flex justify-content-between cart-ammount-row-width">
                                 <div class="col-md-7">
-                                    <label class="ammount-cart-label" for="">Ammount</label>
+                                    <label class="ammount-cart-label" for="">Amount</label>
                                 </div>
                                 <div class="col-md-5">
-                                    <label class="ammount-cart-label" for="">{{ ammount }}2</label>
+                                    <label class="ammount-cart-label" for="">{{ amount }}</label>
                                 </div>
                             </div>
                             <div class="row cart-ammount-row-width mt-2">
