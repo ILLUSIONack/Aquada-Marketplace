@@ -349,7 +349,6 @@ form.px-4.py-3 {
 .product {
     width: 100%;
     padding: 0px 23px 30px;
-    margin: 0 auto;
 }
 
 .product-title, .product-weight{
@@ -474,7 +473,6 @@ button.btn.btn-primary {
     background: #8bcae6;
     border:none;
 }
-
 
 
 .dropdown-email-password-input {
