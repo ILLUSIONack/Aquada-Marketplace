@@ -654,7 +654,7 @@ input#dropdownCheck {
 
 .cont-description p {
     font-size: 17px;
-    height:185px
+    min-height:185px
 }
 
 .cont-description{
