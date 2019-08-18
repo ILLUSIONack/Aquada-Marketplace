@@ -476,18 +476,21 @@ button.btn.btn-primary {
     border:none;
 }
 
-input#exampleDropdownFormEmail1 {
+
+
+.dropdown-email-password-input {
     height: 42px;
     border-radius: 15px;
-    background: #acacac;
-    opacity: 0.24;
+    background-color: #e8e8e8;
+    border:none;
 }
 
-input#exampleDropdownFormPassword1 {
-    height: 42px;
-    border-radius: 15px;
-    background: #acacac;
-    opacity: 0.24;
+.login-form-font {
+    font-size: 12px;
+}
+
+.dropdown-email-password-font {
+    color:black;
 }
 
 .dropdown-menu {
