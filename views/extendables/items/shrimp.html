@@ -1,17 +1,15 @@
-{% macro getProduct(title, rating, price, image, amount, responsive=true) %}
+{% macro getProduct(title, name, days, image, price, responsive=true) %}
 {% if responsive %}
-<div class="product col-md-12 col-lg-12 col-sm-12">
+<div class="col-md-12 col-lg-12 col-sm-12">
     {% else %}
     <div class="cart-product">
         {% endif %}
-        <div class="product-content-cart">
-            <div class="row">
+        <div class="shrimp-content-cart">
+            <div class="row no-gutters pt-2">
                 <div class="col-md-2">
-                    <div class="row">
-                        <img src="{{image}}" class="checkout-product">
-                    </div>
+                    <img src="{{image}}" class="shrimp-product">
                 </div>
-                <div class="col-md-10 prod product-info-cart">
+                <div class="col-md-10 prod shrimp-info-cart">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="left-content-cart d-flex justify-content-between">
@@ -19,33 +17,24 @@
                                     <div class="row height-twentyfour">
                                         <h3 class="product-title">{{ title }}</h3>
                                     </div>
+                                    <div class="row mt-3">
 
-                                    <div class="row">
-                                        <div class="col-md-12">
-
-                                            <div class="row width-rating-cart mt-3">
-                                                <div class="d-flex justify-content-between">
-                                                    <div class="d-flex">
-                                                        {% for i in range(rating) -%}
-                                                        <div class="star full-star"></div>
-                                                        {%- endfor %}
-                                                    </div>
-                                                    <div>
-                                                        <span class="ml-3 tertiary-text">{{ rating }}</span>
-                                                    </div>
-                                                    <div class="row mb-3">
-                                                        <div class="col-md-12 move-instock-up">
-                                                            <span class="ml-3 in-stock">In Stock </span>
-                                                            <img src="img/check.png" class="check">
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="shrimp-user-name">
+                                                <img src="img/shrimp-user-icon.png" alt="">
+                                                <label class="user-icon-shrimps" for="">{{ name }}</label>
+                                                <img class="ml-2"src="img/dot-shrimps-description.png" alt="">
+                                                <label class="user-icon-shrimps ml-2" for="">History available?</label>
+                                                <img src="img/check.png" class="check">
+                                                <img class="ml-2"src="img/dot-shrimps-description.png" alt="">
+                                                <label class="user-icon-shrimps ml-2" for="">{{ days }} days ago</label>
                                             </div>
                                         </div>
+
                                     </div>
                                 </div>
                                 <div class="price-cart">
-                                    <div class="row height-twentyfour mr-3">
+                                    <div class="row justify-content-end">
                                         <span>{{ kg }}kg</span>
                                     </div>
                                     <div class="row">

@@ -1325,4 +1325,33 @@ a {
     color: white;
     text-align: center;
 }
+
+.shrimp-info-cart {
+    background: white;
+    padding: 19px 0px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    max-height:103px;
+}
+
+.shrimp-content-cart {
+    background: #151413;
+    border-radius: 30px;
+    border: solid 3px white;
+    padding: 0px 10px 0px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: 0 auto;
+    max-height: 129x;
+}
+
+.user-icon-shrimps {
+    color: #262626;
+    font-size: 11px;
+}
+
+.shrimp-product {
+    height: 100%;
+    width: 100%;
+}
 /* Shrimp description page */
