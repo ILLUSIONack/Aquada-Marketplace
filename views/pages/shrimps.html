@@ -2,7 +2,61 @@
 {% import "extendables/items/shrimp.html" as product %}
 
 {% block content %}
+<div class="content col-md-12 mt-5">
+    <div class="content-header pb-3">
+        <h1>Shrimps</h1>
+    </div>
+    <div class="accordion dropdown-menus">
+        <div id="accordionOne">
+            <div class="dropdown">
+                <div class="products-dropdown panel-title" id="headingOne">
 
+                    <button class="products-dropdown" type="button" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        <div class="category-button d-button">My Shrimp Offers</div>
+                    </button>
+
+                </div>
+                <div id="collapseOne" class="mt-3 collapse" aria-labelledby="headingOne" data-parent="#accordionOne">
+                    <div class="border-firstmenu">
+                        <div class="ml-3 filter-container">
+                            <div class="filter-box">
+                                <div class="row">
+                                    {{ product.getProduct('Black Tiger Shrimp', 'R. Carlos', '3' , 'img/shrimpimage1.png', '4.100')}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <div class="products-dropdown panel-title" id="headingTwo">
+                    <button class="products-dropdown collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                        aria-expanded="true" aria-controls="collapseTwo">
+                        <div class="category-button b-button">All Shrimp Offers</div>
+                    </button>
+                </div>
+                <div data-parent="#accordionOne" aria-labelledby="headingTwo" class="mt-3 collapse" id="collapseTwo">
+                    <div class="border-firstmenu">
+                        <div class="ml-3 filter-container">
+                            <div class="filter-box">
+                                <div class="row">
+                                    {{ product.getProduct('Black Tiger Shrimp', 'R. Carlos', '3' , 'img/shrimpimage1.png', '4.100')}}
+                                    {{ product.getProduct('Black Tiger Shrimp', 'R. Carlos', '3' , 'img/shrimpimage1.png', '4.100')}}
+                                    {{ product.getProduct('Black Tiger Shrimp', 'R. Carlos', '3' , 'img/shrimpimage1.png', '4.100')}}
+                                    {{ product.getProduct('Black Tiger Shrimp', 'R. Carlos', '3' , 'img/shrimpimage1.png', '4.100')}}
+                                    {{ product.getProduct('Black Tiger Shrimp', 'R. Carlos', '3' , 'img/shrimpimage1.png', '4.100')}}
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 {% endblock %}

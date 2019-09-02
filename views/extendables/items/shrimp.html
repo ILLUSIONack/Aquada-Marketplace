@@ -1,12 +1,12 @@
 {% macro getProduct(title, name, days, image, price, responsive=true) %}
 {% if responsive %}
-<div class="col-md-12 col-lg-12 col-sm-12">
+<div class="col-md-11 col-lg-11 col-sm-11 mt-1">
     {% else %}
     <div class="cart-product">
         {% endif %}
         <div class="shrimp-content-cart">
             <div class="row no-gutters pt-2">
-                <div class="col-md-2">
+                <div class="col-md-2 pb-0">
                     <img src="{{image}}" class="shrimp-product">
                 </div>
                 <div class="col-md-10 prod shrimp-info-cart">
